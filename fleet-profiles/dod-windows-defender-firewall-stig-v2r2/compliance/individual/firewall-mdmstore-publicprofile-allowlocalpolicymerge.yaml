@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''Allow Local Policy Merge'' is set to ''Disabled'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalPolicyMerge</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = 'false';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalPolicyMerge</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = 'false';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:allowlocalpolicymerge-false
   description: 'This value is used as an on/off switch. If this value is false, firewall rules from the local store are ignored and not enforced. The merge law for this option is to always use the value of the GroupPolicyRSoPStore. This value is valid for all schema versions.'

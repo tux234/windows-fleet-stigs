@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''System Audit System Integrity'' is set to ''3'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSystemIntegrity</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/Audit/System_AuditSystemIntegrity</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:system-auditsystemintegrity
   description: 'This policy setting allows you to audit events that violate the integrity of the security subsystem, such as the following: Events that could not be written to the event log because of a problem with the auditing system. A process that uses a local procedure call (LPC) port that is not valid in an attempt to impersonate a client by replying, reading, or writing to or from a client address space. The detection of a Remote Procedure Call (RPC) that compromises system integrity. The detection of a hash value of an executable file that is not valid as determined by Code Integrity. Cryptographic operations that compromise system integrity.'

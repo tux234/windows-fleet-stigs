@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''Default Outbound Action'' is set to ''Disabled'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultOutboundAction</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '0';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultOutboundAction</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '0';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:defaultoutboundaction-0
   description: 'This value is the action that the firewall does by default (and evaluates at the very end) on outbound connections. The allow action is represented by 0x00000000; 0x00000001 represents a block action. Default value is 0 [Allow]. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.'

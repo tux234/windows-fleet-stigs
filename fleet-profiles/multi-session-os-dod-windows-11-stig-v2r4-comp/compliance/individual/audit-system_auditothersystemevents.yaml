@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''System Audit Other System Events'' is set to ''3'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditOtherSystemEvents</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/Audit/System_AuditOtherSystemEvents</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:system-auditothersystemevents
   description: 'This policy setting allows you to audit any of the following events: Startup and shutdown of the Windows Firewall service and driver. Security policy processing by the Windows Firewall Service. Cryptography key file and migration operations.'

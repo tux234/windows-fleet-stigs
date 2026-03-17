@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''Enable Delegation'' is set to ''Enabled'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/EnableDelegation</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/UserRights/EnableDelegation</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:userrights-enabledelegation
   description: 'This user right determines which users can set the Trusted for Delegation setting on a user or computer object. The user or object that is granted this privilege must have write access to the account control flags on the user or computer object. A server process running on a computer (or under a user context) that is trusted for delegation can access resources on another computer using delegated credentials of a client, as long as the client account does not have the Account cannot be delegated account control flag set. Caution: Misuse of this user right, or of the Trusted for Delegation setting, could make the network vulnerable to sophisticated attacks using Trojan horse programs that impersonate incoming clients and use their credentials to gain access to network resources.'

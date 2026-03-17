@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''WDigest Authentication'' is set to ''Disabled'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/MSSecurityGuide/WDigestAuthentication</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<Disabled/>%';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:mssecurityguide-wdigestauthentication
   description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication'

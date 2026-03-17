@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''Account Management Audit User Account Management'' is set to ''3'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditUserAccountManagement</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/Audit/AccountManagement_AuditUserAccountManagement</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win10-stig-v3r4:accountmanagement-audituseraccountmanagement
   description: 'This policy setting allows you to audit changes to user accounts. Events include the following: A user account is created, changed, deleted; renamed, disabled, enabled, locked out, or unlocked. A user account’s password is set or changed. A security identifier (SID) is added to the SID History of a user account. The Directory Services Restore Mode password is configured. Permissions on administrative user accounts are changed. Credential Manager credentials are backed up or restored. If you configure this policy setting, an audit event is generated when an attempt to change a user account is made. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a user account changes.'

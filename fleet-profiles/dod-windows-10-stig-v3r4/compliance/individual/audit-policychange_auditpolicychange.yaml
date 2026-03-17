@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''Policy Change Audit Policy Change'' is set to ''Enabled'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditPolicyChange</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/Audit/PolicyChange_AuditPolicyChange</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win10-stig-v3r4:policychange-auditpolicychange
   description: 'This policy setting allows you to audit changes in the security audit policy settings such as the following: Settings permissions and audit settings on the Audit Policy object. Changes to the system audit policy. Registration of security event sources. De-registration of security event sources. Changes to the per-user audit settings. Changes to the value of CrashOnAuditFail. Changes to the system access control list on a file system or registry object. Changes to the Special Groups list. Note: System access control list (SACL) change auditing is done when a SACL for an object changes and the policy change category is enabled. Discretionary access control list (DACL) and ownership changes are audited when object access auditing is enabled and the object''s SACL is configured for auditing of DACL/Owner change.'

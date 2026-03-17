@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''DODownload Mode'' is set to ''2'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODownloadMode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '2';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/DeliveryOptimization/DODownloadMode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '2';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win10-stig-v3r4:deliveryoptimization-dodownloadmode
   description: 'Specifies the method that Delivery Optimization can use to download content on behalf of various Microsoft products.'

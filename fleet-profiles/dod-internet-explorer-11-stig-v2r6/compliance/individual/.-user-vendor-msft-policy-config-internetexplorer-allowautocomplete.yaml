@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''Allow Auto Complete'' is set to ''Disabled'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./User/Vendor/MSFT/Policy/Result/InternetExplorer/AllowAutoComplete</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<Disabled/>%';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-allowautocomplete
   description: 'STIG setting: ./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete'

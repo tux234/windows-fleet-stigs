@@ -68,6 +68,9 @@ describe("generatePolicyYaml", () => {
     expect(yaml).toContain("framework:DISA-STIG");
     expect(yaml).toContain("benchmark:win11-stig");
     expect(yaml).toContain("purpose: Informational");
+    // Query must be inline (not >- folded scalar) per Fleet convention
+    expect(yaml).toContain("query: SELECT");
+    expect(yaml).not.toContain("query: >-");
   });
 
   test("generates ADMX LIKE query for enabled settings", () => {
@@ -94,7 +97,10 @@ describe("generatePolicyYaml", () => {
     expect(summary.generated).toBe(1);
 
     const yaml = summary.results[0].yaml;
-    expect(yaml).toContain("LIKE '%<disabled/>%'");
+    expect(yaml).toContain("LIKE '%<Disabled/>%'");
+    // Compliance queries use Policy/Result/ not Policy/Config/
+    expect(yaml).toContain("Policy/Result/");
+    expect(yaml).not.toContain("Policy/Config/");
   });
 
   test("generates ADMX LIKE query for disabled settings", () => {
@@ -118,7 +124,7 @@ describe("generatePolicyYaml", () => {
 
     const summary = generatePolicyYaml(settings, db);
     const yaml = summary.results[0].yaml;
-    expect(yaml).toContain("LIKE '%<enabled/>%'");
+    expect(yaml).toContain("LIKE '%<Enabled/>%'");
   });
 
   test("reports unmapped settings", () => {

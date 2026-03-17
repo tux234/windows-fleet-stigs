@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''No Lock Screen Toast Notification'' is set to ''Enabled'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./User/Vendor/MSFT/Policy/Config/ADMX_WPN/NoLockScreenToastNotification</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./User/Vendor/MSFT/Policy/Result/ADMX_WPN/NoLockScreenToastNotification</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<Enabled/>%';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:wpn-nolockscreentoastnotification
   description: 'STIG setting: ./User/Vendor/MSFT/Policy/Config/ADMX_WPN/NoLockScreenToastNotification'

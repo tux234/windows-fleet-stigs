@@ -3,8 +3,7 @@ kind: policy
 spec:
   platform: windows
   name: 'STIG - Ensure ''Detailed Tracking Audit Process Creation'' is set to ''3'''
-  query: >-
-    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditProcessCreation</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
+  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/Audit/DetailedTracking_AuditProcessCreation</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
   purpose: Informational
   tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win10-stig-v3r4:detailedtracking-auditprocesscreation
   description: 'This policy setting allows you to audit events generated when a process is created or starts. The name of the application or user that created the process is also audited. If you configure this policy setting, an audit event is generated when a process is created. Success audits record successful attempts and Failure audits record unsuccessful attempts. If you do not configure this policy setting, no audit event is generated when a process is created.'

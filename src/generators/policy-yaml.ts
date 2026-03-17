@@ -83,8 +83,7 @@ kind: policy
 spec:
   platform: windows
   name: '${escapeYaml(policyName)}'
-  query: >-
-    ${query}
+  query: ${query}
   purpose: Informational
   tags: ${tags}
   description: '${description}'
@@ -99,13 +98,17 @@ spec:
 
 /**
  * Build the mdm_bridge verification query matching Fleet's CIS patterns.
+ *
+ * Fleet CIS benchmarks use Policy/Result/ (not Policy/Config/) in compliance
+ * queries — Result returns the enforced value, Config is for setting it.
  */
 function buildVerificationQuery(
   setting: ExtractedSetting,
   node: DdfNode
 ): string | null {
-  const omaUri = node.omaUri;
-  const syncmlGet = `<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>${omaUri}</LocURI></Target></Item></Get></SyncBody>`;
+  // Convert Config → Result for Policy CSP compliance queries
+  const resultUri = node.omaUri.replace("/Policy/Config/", "/Policy/Result/");
+  const syncmlGet = `<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>${resultUri}</LocURI></Target></Item></Get></SyncBody>`;
 
   // ADMX-backed policies use LIKE patterns
   if (node.isAdmxBacked || node.allowedValues?.type === "admx") {
@@ -129,16 +132,16 @@ function buildAdmxQuery(
   const val = setting.value;
 
   if (val === true || val === "true" || val === 1 || val === "1") {
-    return `SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '${syncmlGet}' AND mdm_command_output LIKE '%<enabled/>%';`;
+    return `SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '${syncmlGet}' AND mdm_command_output LIKE '%<Enabled/>%';`;
   }
 
   if (val === false || val === "false" || val === 0 || val === "0") {
-    return `SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '${syncmlGet}' AND mdm_command_output LIKE '%<disabled/>%';`;
+    return `SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '${syncmlGet}' AND mdm_command_output LIKE '%<Disabled/>%';`;
   }
 
   // For specific data values within ADMX, use the data id pattern
   if (typeof val === "number") {
-    return `SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '${syncmlGet}' AND mdm_command_output LIKE '%<enabled%' AND mdm_command_output LIKE '%value="${val}"%';`;
+    return `SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '${syncmlGet}' AND mdm_command_output LIKE '%<Enabled%' AND mdm_command_output LIKE '%value="${val}"%';`;
   }
 
   return `SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '${syncmlGet}' AND mdm_command_output LIKE '%${String(val)}%';`;
