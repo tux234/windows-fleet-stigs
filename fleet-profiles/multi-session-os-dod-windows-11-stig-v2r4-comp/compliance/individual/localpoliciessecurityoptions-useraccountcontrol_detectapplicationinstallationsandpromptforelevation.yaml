@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''User Account Control Detect Application Installations And Prompt For Elevation'' is set to ''Enabled'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:useraccountcontrol-detectapplicationinstallationsandpromptforelevation
+  description: 'User Account Control: Detect application installations and prompt for elevation This policy setting controls the behavior of application installation detection for the computer. The options are: Enabled: (Default) When an application installation package is detected that requires elevation of privilege, the user is prompted to enter an administrative user name and password. If the user enters valid credentials, the operation continues with the applicable privilege. Disabled: Application installation packages are not detected and prompted for elevation. Enterprises that are running standard user desktops and use delegated installation technologies such as Group Policy Software Installation or Systems Management Server (SMS) should disable this policy setting. In this case, installer detection is unnecessary.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\Config\LocalPoliciesSecurityOptions\UserAccountControl_DetectApplicationInstallationsAndPromptForElevation'

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''Threat Severity Default Action'' is set to ''Enabled'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/ThreatSeverityDefaultAction</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:defender-threatseveritydefaultaction
+  description: 'Allows an administrator to specify any valid threat severity levels and the corresponding default action ID to take. This value is a list of threat severity level IDs and corresponding actions, separated by a | using the format threat level=action|threat level=action. For example, 1=6|2=2|4=10|5=3. The following list shows the supported values for threat severity levels:1 – Low severity threats2 – Moderate severity threats4 – High severity threats5 – Severe threatsThe following list shows the supported values for possible actions:2 – Quarantine. Moves files to quarantine. 3 – Remove. Removes files from system. 6 – Allow. Allows file/does none of the above actions. 8 – User defined. Requires user to make a decision on which action to take. 10 – Block. Blocks file execution.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\Config\Defender\ThreatSeverityDefaultAction'

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''Accounts Enable Administrator Account Status'' is set to ''Disabled'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableAdministratorAccountStatus</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '0';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:accounts-enableadministratoraccountstatus
+  description: 'This security setting determines whether the local Administrator account is enabled or disabled. Notes If you try to reenable the Administrator account after it has been disabled, and if the current Administrator password does not meet the password requirements, you cannot reenable the account. In this case, an alternative member of the Administrators group must reset the password on the Administrator account. For information about how to reset a password, see To reset a password. Disabling the Administrator account can become a maintenance issue under certain circumstances. Under Safe Mode boot, the disabled Administrator account will only be enabled if the machine is non-domain joined and there are no other local active administrator accounts. If the computer is domain joined the disabled administrator will not be enabled. Default: Disabled.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\Config\LocalPoliciesSecurityOptions\Accounts_EnableAdministratorAccountStatus'

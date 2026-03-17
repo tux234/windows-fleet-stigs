@@ -63,7 +63,7 @@ jobs:
           for f in "$CATALOG_DIR"/*.json; do
             name=$(basename "$f" .json | sed 's/ Settings Catalog//' | sed 's/ /-/g' | tr '[:upper:]' '[:lower:]')
             echo "Converting: $(basename "$f")"
-            bun run src/cli.ts convert --input "$f" --merge --output "fleet-profiles/$name"
+            bun run src/cli.ts convert --input "$f" --output "fleet-profiles/$name"
           done
 
           # Remove profiles with 0 generated CSPs (app-specific CSPs not in DDF)

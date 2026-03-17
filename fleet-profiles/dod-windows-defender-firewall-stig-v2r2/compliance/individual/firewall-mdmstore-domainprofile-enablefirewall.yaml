@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''Enable Firewall'' is set to ''Enabled'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Vendor/MSFT/Firewall/MdmStore/DomainProfile/EnableFirewall</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = 'true';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:domainprofile-enablefirewall
+  description: 'This value is an on/off switch for the firewall and advanced security enforcement. If this value is false, the server MUST NOT block any network traffic, regardless of other policy settings. The merge law for this option is to let the value of the GroupPolicyRSoPStore win if it is configured; otherwise, the local store value is used.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. MdmStore\DomainProfile\EnableFirewall'

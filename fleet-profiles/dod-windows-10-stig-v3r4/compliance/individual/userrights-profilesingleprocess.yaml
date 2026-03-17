@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''Profile Single Process'' is set to ''Enabled'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ProfileSingleProcess</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win10-stig-v3r4:userrights-profilesingleprocess
+  description: 'This user right determines which users can use performance monitoring tools to monitor the performance of system processes.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\Config\UserRights\ProfileSingleProcess'

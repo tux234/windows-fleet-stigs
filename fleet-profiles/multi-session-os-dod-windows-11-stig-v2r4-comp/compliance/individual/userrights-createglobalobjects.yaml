@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''Create Global Objects'' is set to ''Enabled'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateGlobalObjects</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '1';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win11-stig-v2r4:userrights-createglobalobjects
+  description: 'This security setting determines whether users can create global objects that are available to all sessions. Users can still create objects that are specific to their own session if they do not have this user right. Users who can create global objects could affect processes that run under other users'' sessions, which could lead to application failure or data corruption. Caution: Assigning this user right can be a security risk. Assign this user right only to trusted users.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\Config\UserRights\CreateGlobalObjects'

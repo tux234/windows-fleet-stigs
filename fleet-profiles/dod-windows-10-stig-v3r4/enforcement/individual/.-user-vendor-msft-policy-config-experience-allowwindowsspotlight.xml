@@ -1,0 +1,11 @@
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlight</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>

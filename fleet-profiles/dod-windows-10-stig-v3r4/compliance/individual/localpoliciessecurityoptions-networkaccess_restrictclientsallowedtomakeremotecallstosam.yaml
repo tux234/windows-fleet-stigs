@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''Network Access Restrict Clients Allowed To Make Remote Calls To SAM'' is set to ''O:BAG:BAD:(A;;RC;;;BA)'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = 'O:BAG:BAD:(A;;RC;;;BA)';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win10-stig-v3r4:networkaccess-restrictclientsallowedtomakeremotecallstosam
+  description: 'Network access: Restrict clients allowed to make remote calls to SAM This policy setting allows you to restrict remote rpc connections to SAM. If not selected, the default security descriptor will be used. This policy is supported on at least Windows Server 2016.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\Config\LocalPoliciesSecurityOptions\NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM'

@@ -1,0 +1,11 @@
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/PassportForWork/Biometrics/FacialFeaturesUseEnhancedAntiSpoofing</LocURI>
+        </Target>
+        <Data>true</Data>
+    </Item>
+</Replace>

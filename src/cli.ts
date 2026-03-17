@@ -34,14 +34,13 @@ convert OPTIONS:
   --output <dir>     Output directory (default: ./output)
   --enforcement      Generate CSP XML enforcement profiles only
   --compliance       Generate policy YAML compliance checks only
-  --merge            Merge all outputs into single files
   --stig-id <id>     STIG identifier for tagging (default: DISA-STIG)
 
 EXAMPLES:
   bun run src/cli.ts build-db
   bun run src/cli.ts download-stig
   bun run src/cli.ts convert --input data/stig/stig-july2025/Settings\\ Catalog/DoD\\ Windows\\ 11\\ STIG\\ v2r4.json
-  bun run src/cli.ts convert --input stig-export.json --enforcement --merge
+  bun run src/cli.ts convert --input stig-export.json --enforcement
 `;
 
 async function main(): Promise<void> {
@@ -197,19 +196,20 @@ async function handleConvert(args: string[]): Promise<void> {
 
     const generatedResults = summary.results.filter((r) => r.status === "generated");
 
-    if (values.merge) {
-      const merged = mergeCspXml(generatedResults.map((r) => r.xml));
-      const outPath = join(xmlDir, "merged-stig-enforcement.xml");
-      await writeCspXmlFile(merged, outPath);
-      console.log(`  Written: ${outPath}`);
-    } else {
-      for (const result of generatedResults) {
-        const safeName = result.omaUri.replace(/[^a-zA-Z0-9]/g, "_") + ".xml";
-        const outPath = join(xmlDir, safeName);
-        await writeCspXmlFile(result.xml, outPath);
-      }
-      console.log(`  Written: ${generatedResults.length} individual XML files to ${xmlDir}`);
+    // Always write merged file
+    const merged = mergeCspXml(generatedResults.map((r) => r.xml));
+    const mergedPath = join(xmlDir, "merged-stig-enforcement.xml");
+    await writeCspXmlFile(merged, mergedPath);
+    console.log(`  Merged: ${mergedPath}`);
+
+    // Always write individual files
+    const individualDir = join(xmlDir, "individual");
+    await mkdir(individualDir, { recursive: true });
+    for (const result of generatedResults) {
+      const safeName = omaUriToFilename(result.omaUri) + ".xml";
+      await writeCspXmlFile(result.xml, join(individualDir, safeName));
     }
+    console.log(`  Individual: ${generatedResults.length} files in ${individualDir}`);
 
     // Write summary log
     const logPath = join(values.output!, "enforcement-log.json");
@@ -231,19 +231,20 @@ async function handleConvert(args: string[]): Promise<void> {
 
     const generatedResults = summary.results.filter((r) => r.status === "generated");
 
-    if (values.merge) {
-      const merged = mergePolicyYaml(generatedResults.map((r) => r.yaml));
-      const outPath = join(yamlDir, "merged-stig-compliance.yaml");
-      await Bun.write(outPath, merged);
-      console.log(`  Written: ${outPath}`);
-    } else {
-      for (const result of generatedResults) {
-        const safeName = result.omaUri.replace(/[^a-zA-Z0-9]/g, "_") + ".yaml";
-        const outPath = join(yamlDir, safeName);
-        await Bun.write(outPath, result.yaml);
-      }
-      console.log(`  Written: ${generatedResults.length} individual YAML files to ${yamlDir}`);
+    // Always write merged file
+    const mergedYaml = mergePolicyYaml(generatedResults.map((r) => r.yaml));
+    const mergedYamlPath = join(yamlDir, "merged-stig-compliance.yaml");
+    await Bun.write(mergedYamlPath, mergedYaml);
+    console.log(`  Merged: ${mergedYamlPath}`);
+
+    // Always write individual files
+    const individualYamlDir = join(yamlDir, "individual");
+    await mkdir(individualYamlDir, { recursive: true });
+    for (const result of generatedResults) {
+      const safeName = omaUriToFilename(result.omaUri) + ".yaml";
+      await Bun.write(join(individualYamlDir, safeName), result.yaml);
     }
+    console.log(`  Individual: ${generatedResults.length} files in ${individualYamlDir}`);
 
     // Write summary log
     const logPath = join(values.output!, "compliance-log.json");
@@ -252,6 +253,24 @@ async function handleConvert(args: string[]): Promise<void> {
   }
 
   console.log("Conversion complete!");
+}
+
+/**
+ * Convert an OMA-URI to a clean, readable filename.
+ * ./Device/Vendor/MSFT/Policy/Config/DeviceLock/AllowCamera → devicelock-allowcamera
+ * ./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/EnableFirewall → firewall-privateprofile-enablefirewall
+ */
+function omaUriToFilename(omaUri: string): string {
+  // Strip common prefixes to get the meaningful part
+  let path = omaUri
+    .replace(/^\.\/Device\/Vendor\/MSFT\/Policy\/Config\//, "")
+    .replace(/^\.\/Vendor\/MSFT\/Policy\/Config\//, "")
+    .replace(/^\.\/Device\/Vendor\/MSFT\//, "")
+    .replace(/^\.\/Vendor\/MSFT\//, "");
+
+  return path
+    .replace(/\//g, "-")
+    .toLowerCase();
 }
 
 main().catch((err) => {

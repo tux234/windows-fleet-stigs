@@ -1,0 +1,11 @@
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>

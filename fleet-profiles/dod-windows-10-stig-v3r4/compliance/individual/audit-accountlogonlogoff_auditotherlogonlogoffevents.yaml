@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: policy
+spec:
+  platform: windows
+  name: 'STIG - Ensure ''Account Logon Logoff Audit Other Logon Logoff Events'' is set to ''3'''
+  query: >-
+    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output = '3';
+  purpose: Informational
+  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:win10-stig-v3r4:accountlogonlogoff-auditotherlogonlogoffevents
+  description: 'This policy setting allows you to audit other logon/logoff-related events that are not covered in the “Logon/Logoff” policy setting such as the following: Terminal Services session disconnections. New Terminal Services sessions. Locking and unlocking a workstation. Invoking a screen saver. Dismissal of a screen saver. Detection of a Kerberos replay attack, in which a Kerberos request was received twice with identical information. This condition could be caused by network misconfiguration. Access to a wireless network granted to a user or computer account. Access to a wired 802.1x network granted to a user or computer account.'
+  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\Config\Audit\AccountLogonLogoff_AuditOtherLogonLogoffEvents'
