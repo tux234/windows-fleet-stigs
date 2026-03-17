@@ -1,0 +1,89 @@
+{
+  "name": "Windows 11 DISA STIG Sample",
+  "description": "Sample STIG baseline for testing",
+  "settings": [
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_policy_config_abovelock_allowcortanaabovelock",
+        "choiceSettingValue": {
+          "value": "vendor_msft_policy_config_abovelock_allowcortanaabovelock_0"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_policy_config_camera_allowcamera",
+        "choiceSettingValue": {
+          "value": "vendor_msft_policy_config_camera_allowcamera_0"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_policy_config_devicelock_preventlockscreenslideshow",
+        "choiceSettingValue": {
+          "value": "vendor_msft_policy_config_devicelock_preventlockscreenslideshow_1"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_policy_config_system_allowtelemetry",
+        "choiceSettingValue": {
+          "value": "vendor_msft_policy_config_system_allowtelemetry_1"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_policy_config_devicelock_devicepasswordenabled",
+        "choiceSettingValue": {
+          "value": "vendor_msft_policy_config_devicelock_devicepasswordenabled_0"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_policy_config_devicelock_mindevicepasswordlength",
+        "simpleSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+          "value": 14
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall",
+        "choiceSettingValue": {
+          "value": "vendor_msft_firewall_mdmstore_privateprofile_enablefirewall_true",
+          "children": [
+            {
+              "settingInstance": {
+                "settingDefinitionId": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications",
+                "choiceSettingValue": {
+                  "value": "vendor_msft_firewall_mdmstore_privateprofile_disableinboundnotifications_true"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_policy_config_update_allowautoupdate",
+        "choiceSettingValue": {
+          "value": "vendor_msft_policy_config_update_allowautoupdate_1"
+        }
+      }
+    },
+    {
+      "settingInstance": {
+        "settingDefinitionId": "vendor_msft_bitlocker_requiredeviceencryption",
+        "choiceSettingValue": {
+          "value": "vendor_msft_bitlocker_requiredeviceencryption_1"
+        }
+      }
+    }
+  ]
+}

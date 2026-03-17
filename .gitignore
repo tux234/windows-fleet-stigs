@@ -1,0 +1,41 @@
+# dependencies
+node_modules
+
+# build output
+out
+dist
+*.tgz
+
+# generated data (re-downloadable)
+data/
+output/
+output-*/
+.test-tmp/
+
+# test artifacts
+test-data/stig-metadata-test*.json
+test-data/stig-bom-test.json
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+*.log
+
+# dotenv
+.env
+.env.*.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IDE
+.idea
+.vscode
+
+# OS
+.DS_Store
