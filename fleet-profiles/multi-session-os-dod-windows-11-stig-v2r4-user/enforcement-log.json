@@ -1,0 +1,34 @@
+{
+  "total": 5,
+  "generated": 5,
+  "blocked": 0,
+  "unmapped": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/ADMX_WPN/NoLockScreenToastNotification",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./User/Vendor/MSFT/Policy/Config/ADMX_WPN/NoLockScreenToastNotification</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/AttachmentManager/DoNotPreserveZoneInformation",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./User/Vendor/MSFT/Policy/Config/AttachmentManager/DoNotPreserveZoneInformation</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlight",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./User/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlight</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./User/Vendor/MSFT/Policy/Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/WindowsAI/TurnOffWindowsCopilot",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./User/Vendor/MSFT/Policy/Config/WindowsAI/TurnOffWindowsCopilot</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    }
+  ]
+}

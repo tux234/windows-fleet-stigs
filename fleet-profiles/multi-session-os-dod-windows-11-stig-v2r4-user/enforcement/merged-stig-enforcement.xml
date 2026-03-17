@@ -1,0 +1,55 @@
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/ADMX_WPN/NoLockScreenToastNotification</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/AttachmentManager/DoNotPreserveZoneInformation</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlight</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/WindowsAI/TurnOffWindowsCopilot</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>

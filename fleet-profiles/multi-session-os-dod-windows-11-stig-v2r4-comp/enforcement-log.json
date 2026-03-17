@@ -1,0 +1,1000 @@
+{
+  "total": 192,
+  "generated": 161,
+  "blocked": 2,
+  "unmapped": 29,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventEnablingLockScreenCamera",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventEnablingLockScreenCamera</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventLockScreenSlideShow",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventLockScreenSlideShow</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/EnableSmartScreen",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/EnableSmartScreen</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_windowsexplorer_enablesmartscreen_enablesmartscreendropdown"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_mssecurityguide_configuresmbv1clientdriver_pol_secguide_smb1clientdriver"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1Server",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1Server</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_msslegacy_ipv6sourceroutingprotectionlevel_disableipsourceroutingipv6"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPSourceRoutingProtectionLevel",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPSourceRoutingProtectionLevel</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_msslegacy_ipsourceroutingprotectionlevel_disableipsourcerouting"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_NetworkConnections/NC_ShowSharedAccessUI",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_NetworkConnections/NC_ShowSharedAccessUI</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/HardenedUNCPaths",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/HardenedUNCPaths</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_CipherSuiteOrder/SSLCurveOrder",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_CipherSuiteOrder/SSLCurveOrder</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_WCM/WCM_MinimizeConnections",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_WCM/WCM_MinimizeConnections</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_wcm_wcm_minimizeconnections_wcm_minimizeconnections_options"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_AuditSettings/IncludeCmdLine",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_AuditSettings/IncludeCmdLine</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/System/BootStartDriverInitialization",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/System/BootStartDriverInitialization</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_system_bootstartdriverinitialization_selectdriverloadpolicy"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_GroupPolicy/CSE_Registry",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_GroupPolicy/CSE_Registry</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nobackground10"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_grouppolicy_cse_registry_cse_nochanges10"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Connectivity/DiablePrintingOverHTTP",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/DiablePrintingOverHTTP</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_Kerberos/DevicePKInitEnabled",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_Kerberos/DevicePKInitEnabled</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_kerberos_devicepkinitenabled_devicepkinitbehavior",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_kerberos_devicepkinitenabled_devicepkinitbehavior"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/DontDisplayNetworkSelectionUI",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/DontDisplayNetworkSelectionUI</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnumerateLocalUsersOnDomainJoinedComputers",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnumerateLocalUsersOnDomainJoinedComputers</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/CredentialProviders/AllowPINLogon",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/CredentialProviders/AllowPINLogon</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesOnBattery",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesOnBattery</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesPluggedIn",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesPluggedIn</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/SolicitedRemoteAssistance",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/SolicitedRemoteAssistance</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_remoteprocedurecall_restrictunauthenticatedrpcclients_rpcrestrictremoteclientslist"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/AppRuntime/AllowMicrosoftAccountsToBeOptional",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/AppRuntime/AllowMicrosoftAccountsToBeOptional</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_AppCompat/AppCompatTurnOffProgramInventory",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_AppCompat/AppCompatTurnOffProgramInventory</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/DisallowAutoplayForNonVolumeDevices",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Autoplay/DisallowAutoplayForNonVolumeDevices</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/SetDefaultAutoRunBehavior",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Autoplay/SetDefaultAutoRunBehavior</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_autoplay_setdefaultautorunbehavior_noautorun_dropdown"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Autoplay/TurnOffAutoPlay",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Autoplay/TurnOffAutoPlay</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_autoplay_turnoffautoplay_autorun_box"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/BitLocker/SystemDrivesMinimumPINLength",
+      "xml": "",
+      "status": "blocked",
+      "reason": "Fleet blocks this CSP path. Use mdm.disk_encryption endpoint instead."
+    },
+    {
+      "omaUri": "device_vendor_msft_bitlocker_systemdrivesminimumpinlength_minpinlength",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_bitlocker_systemdrivesminimumpinlength_minpinlength"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/BitLocker/SystemDrivesRequireStartupAuthentication",
+      "xml": "",
+      "status": "blocked",
+      "reason": "Fleet blocks this CSP path. Use mdm.disk_encryption endpoint instead."
+    },
+    {
+      "omaUri": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurenontpmstartupkeyusage_name"
+    },
+    {
+      "omaUri": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmpinkeyusagedropdown_name"
+    },
+    {
+      "omaUri": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmstartupkeyusagedropdown_name"
+    },
+    {
+      "omaUri": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configurepinusagedropdown_name"
+    },
+    {
+      "omaUri": "device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_bitlocker_systemdrivesrequirestartupauthentication_configuretpmusagedropdown_name"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/CredentialsUI/EnumerateAdministrators",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/CredentialsUI/EnumerateAdministrators</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizeapplicationlog_channel_logmaxsize"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesecuritylog_channel_logmaxsize"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSystemLog",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSystemLog</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_eventlogservice_specifymaximumfilesizesystemlog_channel_logmaxsize"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffHeapTerminationOnCorruption",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffHeapTerminationOnCorruption</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/ShellProtocolProtectedModeTitle_2",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/ShellProtocolProtectedModeTitle_2</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_disableinternetexplorerapp_v2",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_disableinternetexplorerapp_v2"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_disableinternetexplorerapp_v2_notifydisableieoptions",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_disableinternetexplorerapp_v2_notifydisableieoptions"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowPasswordSaving",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowPasswordSaving</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowDriveRedirection",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowDriveRedirection</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/PromptForPasswordUponConnection",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/PromptForPasswordUponConnection</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/RequireSecureRPCCommunication",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/RequireSecureRPCCommunication</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_remotedesktopservices_clientconnectionencryptionlevel_ts_encryption_level"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEnclosureDownloading",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEnclosureDownloading</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MSI/SafeForScripting",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MSI/SafeForScripting</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsLogon/AllowAutomaticRestartSignOn",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/AllowAutomaticRestartSignOn</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_windowspowershell_turnonpowershellscriptblocklogging_enablescriptblockinvocationlogging",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_windowspowershell_turnonpowershellscriptblocklogging_enablescriptblockinvocationlogging"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_PowerShellExecutionPolicy/EnableTranscripting",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_PowerShellExecutionPolicy/EnableTranscripting</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_powershellexecutionpolicy_enabletranscripting_enableinvocationheader",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_powershellexecutionpolicy_enabletranscripting_enableinvocationheader"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_powershellexecutionpolicy_enabletranscripting_outputdirectory",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_powershellexecutionpolicy_enabletranscripting_outputdirectory"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Client",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Client</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Client",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Client</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowDigestAuthentication",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowDigestAuthentication</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Service",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Service</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowStoringOfRunAsCredentials",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowStoringOfRunAsCredentials</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogon_AuditCredentialValidation",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogon_AuditCredentialValidation</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditAccountLockout",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditAccountLockout</LocURI>\n        </Target>\n        <Data>2</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditGroupMembership",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditGroupMembership</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogoff",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogoff</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogon",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogon</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditAuthenticationPolicyChange",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditAuthenticationPolicyChange</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditAuthorizationPolicyChange",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditAuthorizationPolicyChange</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditPolicyChange",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditPolicyChange</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditFileShare",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditFileShare</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditSecurityGroupManagement",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditSecurityGroupManagement</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecuritySystemExtension",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecuritySystemExtension</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditSpecialLogon",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditSpecialLogon</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditUserAccountManagement",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditUserAccountManagement</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditPNPActivity",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditPNPActivity</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditProcessCreation",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditProcessCreation</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditDetailedFileShare",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditDetailedFileShare</LocURI>\n        </Target>\n        <Data>2</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditOtherObjectAccessEvents",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditOtherObjectAccessEvents</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditRemovableStorage",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditRemovableStorage</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditMPSSVCRuleLevelPolicyChange",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditMPSSVCRuleLevelPolicyChange</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditOtherPolicyChangeEvents",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditOtherPolicyChangeEvents</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/PrivilegeUse_AuditSensitivePrivilegeUse",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PrivilegeUse_AuditSensitivePrivilegeUse</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditIPsecDriver",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditIPsecDriver</LocURI>\n        </Target>\n        <Data>2</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditOtherSystemEvents",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditOtherSystemEvents</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecurityStateChange",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecurityStateChange</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSystemIntegrity",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSystemIntegrity</LocURI>\n        </Target>\n        <Data>3</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Cryptography/AllowFipsAlgorithmPolicy",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Cryptography/AllowFipsAlgorithmPolicy</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODownloadMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODownloadMode</LocURI>\n        </Target>\n        <Data>2</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/LsaCfgFlags",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceGuard/LsaCfgFlags</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/EnableVirtualizationBasedSecurity",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceGuard/EnableVirtualizationBasedSecurity</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceGuard/RequirePlatformSecurityFeatures",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceGuard/RequirePlatformSecurityFeatures</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordEnabled",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordEnabled</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordExpiration",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordExpiration</LocURI>\n        </Target>\n        <Data>60</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordHistory",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordHistory</LocURI>\n        </Target>\n        <Data>24</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinDevicePasswordLength",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinDevicePasswordLength</LocURI>\n        </Target>\n        <Data>14</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinimumPasswordAge",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinimumPasswordAge</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/DmaGuard/DeviceEnumerationPolicy",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/DmaGuard/DeviceEnumerationPolicy</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LanmanWorkstation/EnableInsecureGuestLogons",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LanmanWorkstation/EnableInsecureGuestLogons</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableAdministratorAccountStatus",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableAdministratorAccountStatus</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableGuestAccountStatus",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableGuestAccountStatus</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_RenameAdministratorAccount",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_RenameAdministratorAccount</LocURI>\n        </Target>\n        <Data><![CDATA[X_Admin]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_RenameGuestAccount",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_RenameGuestAccount</LocURI>\n        </Target>\n        <Data><![CDATA[Visitor]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_localpoliciessecurityoptions_interactivelogon_machineinactivitylimit_v2"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTextForUsersAttemptingToLogOn",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTextForUsersAttemptingToLogOn</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTitleForUsersAttemptingToLogOn",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTitleForUsersAttemptingToLogOn</LocURI>\n        </Target>\n        <Data><![CDATA[US Department of Defense Warning Statement]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_SmartCardRemovalBehavior",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_SmartCardRemovalBehavior</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsAlways",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsAlways</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsAlways",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsAlways</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM</LocURI>\n        </Target>\n        <Data><![CDATA[O:BAG:BAD:(A;;RC;;;BA)]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_AllowPKU2UAuthenticationRequests",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_AllowPKU2UAuthenticationRequests</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_LANManagerAuthenticationLevel",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_LANManagerAuthenticationLevel</LocURI>\n        </Target>\n        <Data>5</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients</LocURI>\n        </Target>\n        <Data>537395200</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers</LocURI>\n        </Target>\n        <Data>537395200</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators</LocURI>\n        </Target>\n        <Data>2</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/AllowGameDVR",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/AllowGameDVR</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAllowUserControlOverInstall",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAllowUserControlOverInstall</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsActivateWithVoiceAboveLock",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsActivateWithVoiceAboveLock</LocURI>\n        </Target>\n        <Data>2</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Search/AllowIndexingEncryptedStoresOrItems",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Search/AllowIndexingEncryptedStoresOrItems</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/SmartScreen/PreventOverrideForFilesInShell",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/SmartScreen/PreventOverrideForFilesInShell</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/System/AllowTelemetry",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/System/AllowTelemetry</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/AccessFromNetwork",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/AccessFromNetwork</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/AllowLocalLogOn",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/AllowLocalLogOn</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/BackupFilesAndDirectories",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/BackupFilesAndDirectories</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ChangeSystemTime",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ChangeSystemTime</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/CreateGlobalObjects",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateGlobalObjects</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePageFile",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePageFile</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/CreateSymbolicLinks",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateSymbolicLinks</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/DebugPrograms",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DebugPrograms</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/DenyAccessFromNetwork",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyAccessFromNetwork</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/DenyLocalLogOn",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyLocalLogOn</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/DenyRemoteDesktopServicesLogOn",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyRemoteDesktopServicesLogOn</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ImpersonateClient",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ImpersonateClient</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/LoadUnloadDeviceDrivers",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/LoadUnloadDeviceDrivers</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ManageAuditingAndSecurityLog",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ManageAuditingAndSecurityLog</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ManageVolume",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ManageVolume</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ModifyFirmwareEnvironment",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ModifyFirmwareEnvironment</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ProfileSingleProcess",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ProfileSingleProcess</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/RemoteShutdown",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/RemoteShutdown</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/RestoreFilesAndDirectories",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/RestoreFilesAndDirectories</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/TakeOwnership",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/TakeOwnership</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/PassportForWork/Biometrics/FacialFeaturesUseEnhancedAntiSpoofing",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">bool</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/PassportForWork/Biometrics/FacialFeaturesUseEnhancedAntiSpoofing</LocURI>\n        </Target>\n        <Data>true</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_passportforwork_{tenantid}",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_passportforwork_{tenantid}"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/AccessCredentialManagerAsTrustedCaller",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/AccessCredentialManagerAsTrustedCaller</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/ActAsPartOfTheOperatingSystem",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ActAsPartOfTheOperatingSystem</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePermanentSharedObjects",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePermanentSharedObjects</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/CreateToken",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateToken</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/EnableDelegation",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/EnableDelegation</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/UserRights/LockMemory",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/LockMemory</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    }
+  ]
+}

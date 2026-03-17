@@ -1,0 +1,109 @@
+{
+  "total": 19,
+  "generated": 14,
+  "blocked": 0,
+  "unmapped": 5,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableAutoExclusions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableAutoExclusions</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableBlockAtFirstSeen",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableBlockAtFirstSeen</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SpynetReporting",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SpynetReporting</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynetreporting_spynetreporting",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_spynetreporting_spynetreporting"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/ExploitGuard_ASR_Rules",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/ExploitGuard_ASR_Rules</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisableRemovableDriveScanning",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisableRemovableDriveScanning</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_ScheduleDay",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_ScheduleDay</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_scheduleday_scan_scheduleday",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_scan_scheduleday_scan_scheduleday"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisableEmailScanning",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisableEmailScanning</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_ASSignatureDue",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_ASSignatureDue</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_assignaturedue_signatureupdate_assignaturedue",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_assignaturedue_signatureupdate_assignaturedue"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_AVSignatureDue",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_AVSignatureDue</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_avsignaturedue_signatureupdate_avsignaturedue",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_avsignaturedue_signatureupdate_avsignaturedue"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_ScheduleDay",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_ScheduleDay</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_scheduleday_signatureupdate_scheduleday",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_admx_microsoftdefenderantivirus_signatureupdate_scheduleday_signatureupdate_scheduleday"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/PUAProtection",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/PUAProtection</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/SubmitSamplesConsent",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/SubmitSamplesConsent</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/ThreatSeverityDefaultAction",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/ThreatSeverityDefaultAction</LocURI>\n        </Target>\n        <Data><![CDATA[1]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    }
+  ]
+}

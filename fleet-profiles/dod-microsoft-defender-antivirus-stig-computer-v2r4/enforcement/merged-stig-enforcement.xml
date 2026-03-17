@@ -1,0 +1,154 @@
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableAutoExclusions</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/DisableBlockAtFirstSeen</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SpynetReporting</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/ExploitGuard_ASR_Rules</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisableRemovableDriveScanning</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_ScheduleDay</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Scan_DisableEmailScanning</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_ASSignatureDue</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_AVSignatureDue</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/SignatureUpdate_ScheduleDay</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/EnableNetworkProtection</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/PUAProtection</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/SubmitSamplesConsent</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Defender/ThreatSeverityDefaultAction</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>

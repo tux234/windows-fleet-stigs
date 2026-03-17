@@ -1,0 +1,122 @@
+name: Generate Fleet STIG Profiles
+
+on:
+  # Manual trigger with optional version override
+  workflow_dispatch:
+    inputs:
+      ddf_version:
+        description: 'DDF version (e.g., feb2026)'
+        required: false
+        default: 'feb2026'
+      stig_version:
+        description: 'STIG package version (e.g., july2025)'
+        required: false
+        default: 'july2025'
+
+  # Run monthly to check for new STIG releases
+  schedule:
+    - cron: '0 8 1 * *'  # 1st of each month at 8am UTC
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run tests
+        run: bun test
+
+      - name: Build CSP reference database
+        run: bun run src/cli.ts build-db --version ${{ inputs.ddf_version || 'feb2026' }}
+
+      - name: Download DISA STIG package
+        run: bun run src/cli.ts download-stig --version ${{ inputs.stig_version || 'july2025' }}
+
+      - name: Generate Fleet profiles
+        run: |
+          STIG_DIR="data/stig/stig-${{ inputs.stig_version || 'july2025' }}"
+          CATALOG_DIR=$(find "$STIG_DIR" -type d -name "Settings Catalog" | head -1)
+
+          if [ -z "$CATALOG_DIR" ]; then
+            echo "No Settings Catalog directory found"
+            exit 1
+          fi
+
+          echo "Found Settings Catalog at: $CATALOG_DIR"
+
+          # Clear previous profiles
+          rm -rf fleet-profiles/
+          mkdir -p fleet-profiles
+
+          # Convert each STIG profile
+          for f in "$CATALOG_DIR"/*.json; do
+            name=$(basename "$f" .json | sed 's/ Settings Catalog//' | sed 's/ /-/g' | tr '[:upper:]' '[:lower:]')
+            echo "Converting: $(basename "$f")"
+            bun run src/cli.ts convert --input "$f" --merge --output "fleet-profiles/$name"
+          done
+
+          # Remove profiles with 0 generated CSPs (app-specific CSPs not in DDF)
+          for d in fleet-profiles/*/; do
+            gen=$(python3 -c "import sys,json; print(json.load(sys.stdin)['generated'])" < "$d/enforcement-log.json" 2>/dev/null || echo "0")
+            if [ "$gen" = "0" ]; then
+              echo "Removing (0 generated): $(basename "$d")"
+              rm -rf "$d"
+            else
+              echo "Keeping ($gen generated): $(basename "$d")"
+            fi
+          done
+
+      - name: Generate summary
+        run: |
+          echo "# Fleet STIG Profiles — Generated $(date -u +%Y-%m-%d)" > fleet-profiles/README.md
+          echo "" >> fleet-profiles/README.md
+          echo "Auto-generated from DISA STIG Intune Policy Package (\`${{ inputs.stig_version || 'july2025' }}\`) using DDF v2 (\`${{ inputs.ddf_version || 'feb2026' }}\`)." >> fleet-profiles/README.md
+          echo "" >> fleet-profiles/README.md
+          echo "| Profile | Enforcement CSPs | Compliance Policies | Blocked | Unmapped |" >> fleet-profiles/README.md
+          echo "|---------|-----------------|--------------------|---------|-----------| " >> fleet-profiles/README.md
+
+          for d in fleet-profiles/*/; do
+            [ -f "$d/enforcement-log.json" ] || continue
+            name=$(basename "$d")
+            stats=$(python3 -c "
+          import json, sys
+          e = json.load(open('$d/enforcement-log.json'))
+          c = json.load(open('$d/compliance-log.json'))
+          print(f\"| \`{sys.argv[1]}\` | {e['generated']} | {c['generated']} | {e['blocked']} | {e['unmapped']} |\")
+          " "$name" 2>/dev/null)
+            echo "$stats" >> fleet-profiles/README.md
+          done
+
+          echo "" >> fleet-profiles/README.md
+          echo "## Usage" >> fleet-profiles/README.md
+          echo "" >> fleet-profiles/README.md
+          echo "**Enforcement**: Upload \`enforcement/merged-stig-enforcement.xml\` to Fleet via Controls > OS settings > Custom settings > Add profile" >> fleet-profiles/README.md
+          echo "" >> fleet-profiles/README.md
+          echo "**Compliance**: Import \`compliance/merged-stig-compliance.yaml\` via Policies > Add policy > Import or \`fleetctl apply -f\`" >> fleet-profiles/README.md
+          echo "" >> fleet-profiles/README.md
+          echo "**Blocked CSPs**: BitLocker (use Fleet's disk encryption endpoint) and Windows Update (requires \`EnableCustomOSUpdates\`) are excluded. See enforcement-log.json for details." >> fleet-profiles/README.md
+
+          cat fleet-profiles/README.md
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fleet-profiles/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: regenerate Fleet STIG profiles (STIG ${{ inputs.stig_version || 'july2025' }}, DDF ${{ inputs.ddf_version || 'feb2026' }})"
+            git push
+          fi

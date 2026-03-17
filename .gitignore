@@ -6,11 +6,13 @@ out
 dist
 *.tgz
 
-# generated data (re-downloadable)
+# downloaded data (re-downloadable)
 data/
 output/
 output-*/
 .test-tmp/
+
+# fleet-profiles/ is tracked — generated profiles committed for showcase
 
 # test artifacts
 test-data/stig-metadata-test*.json

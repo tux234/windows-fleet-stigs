@@ -1,0 +1,1859 @@
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventEnablingLockScreenCamera</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/PreventLockScreenSlideShow</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ApplyUACRestrictionsToLocalAccountsOnNetworkLogon</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1ClientDriver</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/ConfigureSMBV1Server</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/EnableStructuredExceptionHandlingOverwriteProtection</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSecurityGuide/WDigestAuthentication</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPv6SourceRoutingProtectionLevel</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/IPSourceRoutingProtectionLevel</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowICMPRedirectsToOverrideOSPFGeneratedRoutes</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/MSSLegacy/AllowTheComputerToIgnoreNetBIOSNameReleaseRequestsExceptFromWINSServers</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_NetworkConnections/NC_ShowSharedAccessUI</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/HardenedUNCPaths</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_CipherSuiteOrder/SSLCurveOrder</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_WCM/WCM_MinimizeConnections</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsConnectionManager/ProhitConnectionToNonDomainNetworksWhenConnectedToDomainAuthenticatedNetwork</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/ADMX_WPN/NoLockScreenToastNotification</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_AuditSettings/IncludeCmdLine</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/CredentialsDelegation/RemoteHostAllowsDelegationOfNonExportableCredentials</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/System/BootStartDriverInitialization</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_GroupPolicy/CSE_Registry</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableDownloadingOfPrintDriversOverHTTP</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/DisableInternetDownloadForWebPublishingAndOnlineOrderingWizards</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Connectivity/DiablePrintingOverHTTP</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_Kerberos/DevicePKInitEnabled</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/DontDisplayNetworkSelectionUI</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/EnumerateLocalUsersOnDomainJoinedComputers</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/CredentialProviders/AllowPINLogon</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesOnBattery</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Power/RequirePasswordWhenComputerWakesPluggedIn</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteAssistance/SolicitedRemoteAssistance</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteProcedureCall/RestrictUnauthenticatedRPCClients</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/AppRuntime/AllowMicrosoftAccountsToBeOptional</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_AppCompat/AppCompatTurnOffProgramInventory</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/AttachmentManager/DoNotPreserveZoneInformation</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Autoplay/DisallowAutoplayForNonVolumeDevices</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Autoplay/SetDefaultAutoRunBehavior</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Autoplay/TurnOffAutoPlay</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/CredentialsUI/EnumerateAdministrators</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeApplicationLog</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSecurityLog</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/EventLogService/SpecifyMaximumFileSizeSystemLog</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/EnableSmartScreen</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffDataExecutionPreventionForExplorer</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/FileExplorer/TurnOffHeapTerminationOnCorruption</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_WindowsExplorer/ShellProtocolProtectedModeTitle_2</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableIgnoringCertificateErrors</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowPasswordSaving</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/DoNotAllowDriveRedirection</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/PromptForPasswordUponConnection</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/RequireSecureRPCCommunication</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteDesktopServices/ClientConnectionEncryptionLevel</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEnclosureDownloading</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MSI/SafeForScripting</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsLogon/AllowAutomaticRestartSignOn</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsPowerShell/TurnOnPowerShellScriptBlockLogging</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_PowerShellExecutionPolicy/EnableTranscripting</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Client</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Client</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowDigestAuthentication</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowBasicAuthentication_Service</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/AllowUnencryptedTraffic_Service</LocURI>
+        </Target>
+        <Data><![CDATA[<disabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/RemoteManagement/DisallowStoringOfRunAsCredentials</LocURI>
+        </Target>
+        <Data><![CDATA[<enabled/>]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogon_AuditCredentialValidation</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditAccountLockout</LocURI>
+        </Target>
+        <Data>2</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditGroupMembership</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogoff</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditLogon</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditAuthenticationPolicyChange</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditAuthorizationPolicyChange</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditPolicyChange</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditFileShare</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditOtherLogonLogoffEvents</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditSecurityGroupManagement</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecuritySystemExtension</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountLogonLogoff_AuditSpecialLogon</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/AccountManagement_AuditUserAccountManagement</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditPNPActivity</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/DetailedTracking_AuditProcessCreation</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditDetailedFileShare</LocURI>
+        </Target>
+        <Data>2</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditOtherObjectAccessEvents</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/ObjectAccess_AuditRemovableStorage</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditMPSSVCRuleLevelPolicyChange</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PolicyChange_AuditOtherPolicyChangeEvents</LocURI>
+        </Target>
+        <Data>2</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/PrivilegeUse_AuditSensitivePrivilegeUse</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditIPsecDriver</LocURI>
+        </Target>
+        <Data>2</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditOtherSystemEvents</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSecurityStateChange</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Audit/System_AuditSystemIntegrity</LocURI>
+        </Target>
+        <Data>3</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Browser/PreventCertErrorOverrides</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Cryptography/AllowFipsAlgorithmPolicy</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeliveryOptimization/DODownloadMode</LocURI>
+        </Target>
+        <Data>2</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceGuard/LsaCfgFlags</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceGuard/EnableVirtualizationBasedSecurity</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceGuard/RequirePlatformSecurityFeatures</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordEnabled</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordExpiration</LocURI>
+        </Target>
+        <Data>60</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/DevicePasswordHistory</LocURI>
+        </Target>
+        <Data>24</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinDevicePasswordLength</LocURI>
+        </Target>
+        <Data>14</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DeviceLock/MinimumPasswordAge</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/DmaGuard/DeviceEnumerationPolicy</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/Experience/AllowWindowsSpotlight</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/Experience/AllowThirdPartySuggestionsInWindowsSpotlight</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Experience/AllowWindowsConsumerFeatures</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LanmanWorkstation/EnableInsecureGuestLogons</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableAdministratorAccountStatus</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_EnableGuestAccountStatus</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_LimitLocalAccountUseOfBlankPasswordsToConsoleLogonOnly</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_RenameAdministratorAccount</LocURI>
+        </Target>
+        <Data><![CDATA[X_Admin]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/Accounts_RenameGuestAccount</LocURI>
+        </Target>
+        <Data><![CDATA[Visitor]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTextForUsersAttemptingToLogOn</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_MessageTitleForUsersAttemptingToLogOn</LocURI>
+        </Target>
+        <Data><![CDATA[US Department of Defense Warning Statement]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/InteractiveLogon_SmartCardRemovalBehavior</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_DigitallySignCommunicationsAlways</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkClient_SendUnencryptedPasswordToThirdPartySMBServers</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/MicrosoftNetworkServer_DigitallySignCommunicationsAlways</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSAMAccounts</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_DoNotAllowAnonymousEnumerationOfSamAccountsAndShares</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictAnonymousAccessToNamedPipesAndShares</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkAccess_RestrictClientsAllowedToMakeRemoteCallsToSAM</LocURI>
+        </Target>
+        <Data><![CDATA[O:BAG:BAD:(A;;RC;;;BA)]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_AllowPKU2UAuthenticationRequests</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_DoNotStoreLANManagerHashValueOnNextPasswordChange</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_LANManagerAuthenticationLevel</LocURI>
+        </Target>
+        <Data>5</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedClients</LocURI>
+        </Target>
+        <Data>537395200</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/NetworkSecurity_MinimumSessionSecurityForNTLMSSPBasedServers</LocURI>
+        </Target>
+        <Data>537395200</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForAdministrators</LocURI>
+        </Target>
+        <Data>2</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_BehaviorOfTheElevationPromptForStandardUsers</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_DetectApplicationInstallationsAndPromptForElevation</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_OnlyElevateUIAccessApplicationsThatAreInstalledInSecureLocations</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_RunAllAdministratorsInAdminApprovalMode</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_UseAdminApprovalMode</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/LocalPoliciesSecurityOptions/UserAccountControl_VirtualizeFileAndRegistryWriteFailuresToPerUserLocations</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/AllowGameDVR</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAllowUserControlOverInstall</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/ApplicationManagement/MSIAlwaysInstallWithElevatedPrivileges</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Privacy/LetAppsActivateWithVoiceAboveLock</LocURI>
+        </Target>
+        <Data>2</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Search/AllowIndexingEncryptedStoresOrItems</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/SmartScreen/PreventOverrideForFilesInShell</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/System/AllowTelemetry</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/AccessCredentialManagerAsTrustedCaller</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/AccessFromNetwork</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ActAsPartOfTheOperatingSystem</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/AllowLocalLogOn</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/BackupFilesAndDirectories</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ChangeSystemTime</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateGlobalObjects</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePageFile</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreatePermanentSharedObjects</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateSymbolicLinks</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/CreateToken</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DebugPrograms</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyAccessFromNetwork</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyLocalLogOn</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/DenyRemoteDesktopServicesLogOn</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/EnableDelegation</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ImpersonateClient</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/LoadUnloadDeviceDrivers</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/LockMemory</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ManageAuditingAndSecurityLog</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ManageVolume</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ModifyFirmwareEnvironment</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/ProfileSingleProcess</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/RemoteShutdown</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/RestoreFilesAndDirectories</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">chr</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/UserRights/TakeOwnership</LocURI>
+        </Target>
+        <Data><![CDATA[1]]></Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/Wifi/AllowAutoConnectToWiFiSenseHotspots</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./User/Vendor/MSFT/Policy/Config/WindowsAI/TurnOffWindowsCopilot</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/PassportForWork/Biometrics/FacialFeaturesUseEnhancedAntiSpoofing</LocURI>
+        </Target>
+        <Data>true</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Device/Vendor/MSFT/Policy/Config/WindowsInkWorkspace/AllowWindowsInkWorkspace</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>

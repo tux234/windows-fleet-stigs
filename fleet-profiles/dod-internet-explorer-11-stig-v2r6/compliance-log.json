@@ -1,0 +1,1125 @@
+{
+  "total": 206,
+  "generated": 119,
+  "unmapped": 87,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInternetExplorerApp",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Internet Explorer App'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInternetExplorerApp</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disableinternetexplorerapp\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInternetExplorerApp'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableInternetExplorerApp'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowDeletingBrowsingHistoryOnExit",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Allow Deleting Browsing History On Exit'' is set to ''Disabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowDeletingBrowsingHistoryOnExit</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-allowdeletingbrowsinghistoryonexit\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowDeletingBrowsingHistoryOnExit'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\AllowDeletingBrowsingHistoryOnExit'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableConfiguringHistory",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Configuring History'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableConfiguringHistory</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disableconfiguringhistory\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableConfiguringHistory'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableConfiguringHistory'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_disableconfiguringhistory_daystokeep_prompt",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_disableconfiguringhistory_daystokeep_prompt"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableDeletingUserVisitedWebsites",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Deleting User Visited Websites'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableDeletingUserVisitedWebsites</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disabledeletinguservisitedwebsites\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableDeletingUserVisitedWebsites'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableDeletingUserVisitedWebsites'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSoftwareWhenSignatureIsInvalid",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Allow Software When Signature Is Invalid'' is set to ''Disabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSoftwareWhenSignatureIsInvalid</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-allowsoftwarewhensignatureisinvalid\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSoftwareWhenSignatureIsInvalid'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\AllowSoftwareWhenSignatureIsInvalid'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckServerCertificateRevocation",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Check Server Certificate Revocation'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckServerCertificateRevocation</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-checkservercertificaterevocation\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckServerCertificateRevocation'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\CheckServerCertificateRevocation'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckSignaturesOnDownloadedPrograms",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Check Signatures On Downloaded Programs'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckSignaturesOnDownloadedPrograms</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-checksignaturesondownloadedprograms\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckSignaturesOnDownloadedPrograms'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\CheckSignaturesOnDownloadedPrograms'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowActiveXControlsInProtectedMode",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Do Not Allow Active XControls In Protected Mode'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowActiveXControlsInProtectedMode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-donotallowactivexcontrolsinprotectedmode\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowActiveXControlsInProtectedMode'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DoNotAllowActiveXControlsInProtectedMode'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEncryptionSupport",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Encryption Support'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEncryptionSupport</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disableencryptionsupport\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEncryptionSupport'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableEncryptionSupport'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_disableencryptionsupport_advanced_wininetprotocoloptions",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_disableencryptionsupport_advanced_wininetprotocoloptions"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableProcessesInEnhancedProtectedMode",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Processes In Enhanced Protected Mode'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableProcessesInEnhancedProtectedMode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disableprocessesinenhancedprotectedmode\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableProcessesInEnhancedProtectedMode'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableProcessesInEnhancedProtectedMode'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedProtectedMode",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Allow Enhanced Protected Mode'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedProtectedMode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-allowenhancedprotectedmode\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedProtectedMode'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\AllowEnhancedProtectedMode'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableIgnoringCertificateErrors",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Ignoring Certificate Errors'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableIgnoringCertificateErrors</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disableignoringcertificateerrors\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableIgnoringCertificateErrors'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableIgnoringCertificateErrors'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAccessToDataSources",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Access To Data Sources'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAccessToDataSources</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowaccesstodatasources\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAccessToDataSources'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowAccessToDataSources'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowaccesstodatasources_iz_partname1406",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowaccesstodatasources_iz_partname1406"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Copy Paste Via Script'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowcopypasteviascript\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowCopyPasteViaScript'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowcopypasteviascript_iz_partname1407",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowcopypasteviascript_iz_partname1407"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowDragAndDropCopyAndPasteFiles",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Drag And Drop Copy And Paste Files'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowDragAndDropCopyAndPasteFiles</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowdraganddropcopyandpastefiles\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowDragAndDropCopyAndPasteFiles'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowDragAndDropCopyAndPasteFiles'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowdraganddropcopyandpastefiles_iz_partname1802",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowdraganddropcopyandpastefiles_iz_partname1802"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLoadingOfXAMLFiles",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Loading Of XAMLFiles'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLoadingOfXAMLFiles</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowloadingofxamlfiles\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLoadingOfXAMLFiles'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowLoadingOfXAMLFiles'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowloadingofxamlfiles_iz_partname2402",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowloadingofxamlfiles_iz_partname2402"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Only Approved Domains To Use Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowonlyapproveddomainstouseactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Only Approved Domains To Use TDCActive XControl'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowonlyapproveddomainstousetdcactivexcontrol\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptInitiatedWindows",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Script Initiated Windows'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptInitiatedWindows</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowscriptinitiatedwindows\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptInitiatedWindows'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowScriptInitiatedWindows'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptinitiatedwindows_iz_partname2102",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptinitiatedwindows_iz_partname2102"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Scripting Of Internet Explorer Web Browser Controls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowscriptingofinternetexplorerwebbrowsercontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptlets",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Scriptlets'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptlets</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowscriptlets\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptlets'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowScriptlets'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptlets_iz_partname1209",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptlets_iz_partname1209"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Updates To Status Bar Via Script'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowupdatestostatusbarviascript\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowUpdatesToStatusBarViaScript'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowupdatestostatusbarviascript_iz_partname2103",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowupdatestostatusbarviascript_iz_partname2103"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow VBScript To Run In Internet Explorer'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowvbscripttorunininternetexplorer\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowVBScriptToRunInInternetExplorer'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowvbscripttorunininternetexplorer_iz_partname140c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowvbscripttorunininternetexplorer_iz_partname140c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Automatic Prompting For File Downloads'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowautomaticpromptingforfiledownloads\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowAutomaticPromptingForFileDownloads'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowautomaticpromptingforfiledownloads_iz_partname2200",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowautomaticpromptingforfiledownloads_iz_partname2200"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Do Not Run Antimalware Against Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonedonotrunantimalwareagainstactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDoNotRunAntimalwareAgainstActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneDoNotRunAntimalwareAgainstActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadSignedActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Download Signed Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadSignedActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonedownloadsignedactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadSignedActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneDownloadSignedActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadsignedactivexcontrols_iz_partname1001",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonedownloadsignedactivexcontrols_iz_partname1001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadUnsignedActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Download Unsigned Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadUnsignedActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonedownloadunsignedactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadUnsignedActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneDownloadUnsignedActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadunsignedactivexcontrols_iz_partname1004",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonedownloadunsignedactivexcontrols_iz_partname1004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Enable Dragging Of Content From Different Domains Across Windows'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Enable Dragging Of Content From Different Domains Within Windows'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneIncludeLocalPathWhenUploadingFilesToServer",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Include Local Path When Uploading Files To Server'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneIncludeLocalPathWhenUploadingFilesToServer</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneincludelocalpathwhenuploadingfilestoserver\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneIncludeLocalPathWhenUploadingFilesToServer'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneIncludeLocalPathWhenUploadingFilesToServer'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneInitializeAndScriptActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Initialize And Script Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneInitializeAndScriptActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneinitializeandscriptactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneInitializeAndScriptActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneInitializeAndScriptActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLaunchingApplicationsAndFilesInIFRAME",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Launching Applications And Files In IFRAME'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLaunchingApplicationsAndFilesInIFRAME</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonelaunchingapplicationsandfilesiniframe\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLaunchingApplicationsAndFilesInIFRAME'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneLaunchingApplicationsAndFilesInIFRAME'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonelaunchingapplicationsandfilesiniframe_iz_partname1804",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonelaunchingapplicationsandfilesiniframe_iz_partname1804"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLogonOptions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Logon Options'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLogonOptions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonelogonoptions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLogonOptions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneLogonOptions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonelogonoptions_iz_partname1a00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonelogonoptions_iz_partname1a00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneNavigateWindowsAndFrames",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Navigate Windows And Frames'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneNavigateWindowsAndFrames</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonenavigatewindowsandframes\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneNavigateWindowsAndFrames'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneNavigateWindowsAndFrames'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonenavigatewindowsandframes_iz_partname1607",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonenavigatewindowsandframes_iz_partname1607"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowNETFrameworkReliantComponents",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow NETFramework Reliant Components'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowNETFrameworkReliantComponents</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallownetframeworkreliantcomponents\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowNETFrameworkReliantComponents'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowNETFrameworkReliantComponents'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallownetframeworkreliantcomponents_iz_partname2004",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallownetframeworkreliantcomponents_iz_partname2004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Run NETFramework Reliant Components Signed With Authenticode'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzonerunnetframeworkreliantcomponentssignedwithauthenticode\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Show Security Warning For Potentially Unsafe Files'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneshowsecuritywarningforpotentiallyunsafefiles\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableCrossSiteScriptingFilter",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Enable Cross Site Scripting Filter'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableCrossSiteScriptingFilter</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneenablecrosssitescriptingfilter\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableCrossSiteScriptingFilter'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneEnableCrossSiteScriptingFilter'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenablecrosssitescriptingfilter_iz_partname1409",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneenablecrosssitescriptingfilter_iz_partname1409"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableProtectedMode",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Enable Protected Mode'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableProtectedMode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneenableprotectedmode\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableProtectedMode'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneEnableProtectedMode'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenableprotectedmode_iz_partname2500",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneenableprotectedmode_iz_partname2500"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowSmartScreenIE",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Smart Screen IE'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowSmartScreenIE</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowsmartscreenie\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowSmartScreenIE'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowSmartScreenIE'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowsmartscreenie_iz_partname2301",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowsmartscreenie_iz_partname2301"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneUsePopupBlocker",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Use Popup Blocker'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneUsePopupBlocker</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneusepopupblocker\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneUsePopupBlocker'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneUsePopupBlocker'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneusepopupblocker_iz_partname1809",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneusepopupblocker_iz_partname1809"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUserDataPersistence",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow User Data Persistence'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUserDataPersistence</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowuserdatapersistence\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUserDataPersistence'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowUserDataPersistence'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowuserdatapersistence_iz_partname1606",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowuserdatapersistence_iz_partname1606"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLessPrivilegedSites",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Internet Zone Allow Less Privileged Sites'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLessPrivilegedSites</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-internetzoneallowlessprivilegedsites\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLessPrivilegedSites'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\InternetZoneAllowLessPrivilegedSites'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowlessprivilegedsites_iz_partname2101",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_internetzoneallowlessprivilegedsites_iz_partname2101"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Include All Network Paths'' is set to ''Disabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-includeallnetworkpaths\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\IncludeAllNetworkPaths'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Intranet Zone Do Not Run Antimalware Against Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-intranetzonedonotrunantimalwareagainstactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneDoNotRunAntimalwareAgainstActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\IntranetZoneDoNotRunAntimalwareAgainstActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_intranetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_intranetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneInitializeAndScriptActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Intranet Zone Initialize And Script Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneInitializeAndScriptActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-intranetzoneinitializeandscriptactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneInitializeAndScriptActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\IntranetZoneInitializeAndScriptActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_intranetzoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_intranetzoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Intranet Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-intranetzonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\IntranetZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_intranetzonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_intranetzonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Local Machine Zone Do Not Run Antimalware Against Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-localmachinezonedonotrunantimalwareagainstactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_localmachinezonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_localmachinezonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Local Machine Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-localmachinezonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\LocalMachineZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_localmachinezonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_localmachinezonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Locked Down Intranet Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-lockeddownintranetjavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\LockedDownIntranetJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddownintranetjavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_lockeddownintranetjavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownLocalMachineZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Locked Down Local Machine Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownLocalMachineZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-lockeddownlocalmachinezonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownLocalMachineZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\LockedDownLocalMachineZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddownlocalmachinezonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_lockeddownlocalmachinezonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownRestrictedSitesZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Locked Down Restricted Sites Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownRestrictedSitesZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-lockeddownrestrictedsiteszonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownRestrictedSitesZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\LockedDownRestrictedSitesZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownTrustedSitesZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Locked Down Trusted Sites Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownTrustedSitesZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-lockeddowntrustedsiteszonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownTrustedSitesZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\LockedDownTrustedSitesZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddowntrustedsiteszonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_lockeddowntrustedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Access To Data Sources'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowaccesstodatasources\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowAccessToDataSources'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowaccesstodatasources_iz_partname1406",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowaccesstodatasources_iz_partname1406"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowActiveScripting",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Active Scripting'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowActiveScripting</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowactivescripting\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowActiveScripting'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowActiveScripting'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowactivescripting_iz_partname1400",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowactivescripting_iz_partname1400"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowBinaryAndScriptBehaviors",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Binary And Script Behaviors'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowBinaryAndScriptBehaviors</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowbinaryandscriptbehaviors\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowBinaryAndScriptBehaviors'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowBinaryAndScriptBehaviors'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowbinaryandscriptbehaviors_iz_partname2000",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowbinaryandscriptbehaviors_iz_partname2000"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Copy Paste Via Script'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowcopypasteviascript\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowCopyPasteViaScript'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowcopypasteviascript_iz_partname1407",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowcopypasteviascript_iz_partname1407"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Drag And Drop Copy And Paste Files'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowdraganddropcopyandpastefiles\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowdraganddropcopyandpastefiles_iz_partname1802",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowdraganddropcopyandpastefiles_iz_partname1802"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowFileDownloads",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow File Downloads'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowFileDownloads</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowfiledownloads\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowFileDownloads'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowFileDownloads'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowfiledownloads_iz_partname1803",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowfiledownloads_iz_partname1803"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLoadingOfXAMLFiles",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Loading Of XAMLFiles'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLoadingOfXAMLFiles</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowloadingofxamlfiles\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLoadingOfXAMLFiles'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowLoadingOfXAMLFiles'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowloadingofxamlfiles_iz_partname2402",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowloadingofxamlfiles_iz_partname2402"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowMETAREFRESH",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow METAREFRESH'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowMETAREFRESH</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowmetarefresh\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowMETAREFRESH'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowMETAREFRESH'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowmetarefresh_iz_partname1608",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowmetarefresh_iz_partname1608"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Only Approved Domains To Use Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Only Approved Domains To Use TDCActive XControl'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptInitiatedWindows",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Script Initiated Windows'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptInitiatedWindows</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowscriptinitiatedwindows\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptInitiatedWindows'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowScriptInitiatedWindows'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptinitiatedwindows_iz_partname2102",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptinitiatedwindows_iz_partname2102"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Scripting Of Internet Explorer Web Browser Controls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Scriptlets'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowscriptlets\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowScriptlets'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptlets_iz_partname1209",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptlets_iz_partname1209"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Updates To Status Bar Via Script'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowupdatestostatusbarviascript\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowUpdatesToStatusBarViaScript'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowupdatestostatusbarviascript_iz_partname2103",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowupdatestostatusbarviascript_iz_partname2103"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow VBScript To Run In Internet Explorer'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowvbscripttorunininternetexplorer\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowvbscripttorunininternetexplorer_iz_partname140c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowvbscripttorunininternetexplorer_iz_partname140c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Automatic Prompting For File Downloads'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowautomaticpromptingforfiledownloads\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowautomaticpromptingforfiledownloads_iz_partname2200",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowautomaticpromptingforfiledownloads_iz_partname2200"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Do Not Run Antimalware Against Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonedonotrunantimalwareagainstactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadSignedActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Download Signed Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadSignedActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonedownloadsignedactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadSignedActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneDownloadSignedActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadsignedactivexcontrols_iz_partname1001",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadsignedactivexcontrols_iz_partname1001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadUnsignedActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Download Unsigned Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadUnsignedActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonedownloadunsignedactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadUnsignedActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneDownloadUnsignedActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadunsignedactivexcontrols_iz_partname1004",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadunsignedactivexcontrols_iz_partname1004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Enable Dragging Of Content From Different Domains Across Windows'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Enable Dragging Of Content From Different Domains Within Windows'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Include Local Path When Uploading Files To Server'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneInitializeAndScriptActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Initialize And Script Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneInitializeAndScriptActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneinitializeandscriptactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneInitializeAndScriptActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneInitializeAndScriptActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Launching Applications And Files In IFRAME'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonelaunchingapplicationsandfilesiniframe\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelaunchingapplicationsandfilesiniframe_iz_partname1804",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelaunchingapplicationsandfilesiniframe_iz_partname1804"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLogonOptions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Logon Options'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLogonOptions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonelogonoptions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLogonOptions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneLogonOptions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelogonoptions_iz_partname1a00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelogonoptions_iz_partname1a00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneNavigateWindowsAndFrames",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Navigate Windows And Frames'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneNavigateWindowsAndFrames</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonenavigatewindowsandframes\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneNavigateWindowsAndFrames'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneNavigateWindowsAndFrames'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonenavigatewindowsandframes_iz_partname1607",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonenavigatewindowsandframes_iz_partname1607"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowNETFrameworkReliantComponents",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow NETFramework Reliant Components'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowNETFrameworkReliantComponents</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallownetframeworkreliantcomponents\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowNETFrameworkReliantComponents'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowNETFrameworkReliantComponents'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallownetframeworkreliantcomponents_iz_partname2004",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallownetframeworkreliantcomponents_iz_partname2004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Run NETFramework Reliant Components Signed With Authenticode'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunActiveXControlsAndPlugins",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Run Active XControls And Plugins'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunActiveXControlsAndPlugins</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonerunactivexcontrolsandplugins\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunActiveXControlsAndPlugins'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneRunActiveXControlsAndPlugins'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunactivexcontrolsandplugins_iz_partname1200",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunactivexcontrolsandplugins_iz_partname1200"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Script Active XControls Marked Safe For Scripting'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting_iz_partname1405",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting_iz_partname1405"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptingOfJavaApplets",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Scripting Of Java Applets'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptingOfJavaApplets</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszonescriptingofjavaapplets\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptingOfJavaApplets'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneScriptingOfJavaApplets'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptingofjavaapplets_iz_partname1402",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptingofjavaapplets_iz_partname1402"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Show Security Warning For Potentially Unsafe Files'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Enable Cross Site Scripting Filter'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneenablecrosssitescriptingfilter\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneEnableCrossSiteScriptingFilter'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablecrosssitescriptingfilter_iz_partname1409",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablecrosssitescriptingfilter_iz_partname1409"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnProtectedMode",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Turn On Protected Mode'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnProtectedMode</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneturnonprotectedmode\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnProtectedMode'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneTurnOnProtectedMode'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneturnonprotectedmode_iz_partname2500",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneturnonprotectedmode_iz_partname2500"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowSmartScreenIE",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Smart Screen IE'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowSmartScreenIE</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowsmartscreenie\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowSmartScreenIE'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowSmartScreenIE'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowsmartscreenie_iz_partname2301",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowsmartscreenie_iz_partname2301"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneUsePopupBlocker",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Use Popup Blocker'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneUsePopupBlocker</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneusepopupblocker\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneUsePopupBlocker'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneUsePopupBlocker'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneusepopupblocker_iz_partname1809",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneusepopupblocker_iz_partname1809"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUserDataPersistence",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow User Data Persistence'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUserDataPersistence</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowuserdatapersistence\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUserDataPersistence'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowUserDataPersistence'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowuserdatapersistence_iz_partname1606",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowuserdatapersistence_iz_partname1606"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLessPrivilegedSites",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restricted Sites Zone Allow Less Privileged Sites'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLessPrivilegedSites</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictedsiteszoneallowlessprivilegedsites\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLessPrivilegedSites'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictedSitesZoneAllowLessPrivilegedSites'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowlessprivilegedsites_iz_partname2101",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowlessprivilegedsites_iz_partname2101"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Trusted Sites Zone Do Not Run Antimalware Against Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-trustedsiteszonedonotrunantimalwareagainstactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_trustedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneInitializeAndScriptActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Trusted Sites Zone Initialize And Script Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneInitializeAndScriptActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-trustedsiteszoneinitializeandscriptactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneInitializeAndScriptActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\TrustedSitesZoneInitializeAndScriptActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_trustedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneJavaPermissions",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Trusted Sites Zone Java Permissions'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneJavaPermissions</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-trustedsiteszonejavapermissions\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneJavaPermissions'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\TrustedSitesZoneJavaPermissions'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonejavapermissions_iz_partname1c00",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_trustedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowCertificateAddressMismatchWarning",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Allow Certificate Address Mismatch Warning'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowCertificateAddressMismatchWarning</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-allowcertificateaddressmismatchwarning\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowCertificateAddressMismatchWarning'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\AllowCertificateAddressMismatchWarning'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarnings",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Bypass Of Smart Screen Warnings'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarnings</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disablebypassofsmartscreenwarnings\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarnings'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableBypassOfSmartScreenWarnings'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarningsAboutUncommonFiles",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Bypass Of Smart Screen Warnings About Uncommon Files'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarningsAboutUncommonFiles</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disablebypassofsmartscreenwarningsaboutuncommonfiles\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarningsAboutUncommonFiles'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableBypassOfSmartScreenWarningsAboutUncommonFiles'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventManagingSmartScreenFilter",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Prevent Managing Smart Screen Filter'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventManagingSmartScreenFilter</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-preventmanagingsmartscreenfilter\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventManagingSmartScreenFilter'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\PreventManagingSmartScreenFilter'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_preventmanagingsmartscreenfilter_ie9safetyfilteroptions",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_preventmanagingsmartscreenfilter_ie9safetyfilteroptions"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventPerUserInstallationOfActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Prevent Per User Installation Of Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventPerUserInstallationOfActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-preventperuserinstallationofactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventPerUserInstallationOfActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\PreventPerUserInstallationOfActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInPrivateBrowsing",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable In Private Browsing'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInPrivateBrowsing</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disableinprivatebrowsing\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInPrivateBrowsing'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableInPrivateBrowsing'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RemoveRunThisTimeButtonForOutdatedActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Remove Run This Time Button For Outdated Active XControls'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RemoveRunThisTimeButtonForOutdatedActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-removerunthistimebuttonforoutdatedactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RemoveRunThisTimeButtonForOutdatedActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RemoveRunThisTimeButtonForOutdatedActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Do Not Block Outdated Active XControls'' is set to ''Disabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-donotblockoutdatedactivexcontrols\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DoNotBlockOutdatedActiveXControls'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowFallbackToSSL3",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Allow Fallback To SSL3'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowFallbackToSSL3</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-allowfallbacktossl3\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowFallbackToSSL3'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\AllowFallbackToSSL3'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_allowfallbacktossl3_advanced_enablessl3fallbackoptions",
+      "yaml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for: device_vendor_msft_policy_config_internetexplorer_allowfallbacktossl3_advanced_enablessl3fallbackoptions"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Consistent Mime Handling Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-consistentmimehandlinginternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\ConsistentMimeHandlingInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MimeSniffingSafetyFeatureInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Mime Sniffing Safety Feature Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MimeSniffingSafetyFeatureInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-mimesniffingsafetyfeatureinternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MimeSniffingSafetyFeatureInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\MimeSniffingSafetyFeatureInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MKProtocolSecurityRestrictionInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''MKProtocol Security Restriction Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MKProtocolSecurityRestrictionInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-mkprotocolsecurityrestrictioninternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MKProtocolSecurityRestrictionInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\MKProtocolSecurityRestrictionInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/NotificationBarInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Notification Bar Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/NotificationBarInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-notificationbarinternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/NotificationBarInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\NotificationBarInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Protection From Zone Elevation Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-protectionfromzoneelevationinternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\ProtectionFromZoneElevationInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restrict Active XInstall Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictactivexinstallinternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictActiveXInstallInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Restrict File Download Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-restrictfiledownloadinternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\RestrictFileDownloadInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Scripted Window Security Restrictions Internet Explorer Processes'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-scriptedwindowsecurityrestrictionsinternetexplorerprocesses\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\ScriptedWindowSecurityRestrictionsInternetExplorerProcesses'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToAddSites",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Do Not Allow Users To Add Sites'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToAddSites</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-donotallowuserstoaddsites\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToAddSites'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DoNotAllowUsersToAddSites'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToChangePolicies",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Do Not Allow Users To Change Policies'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToChangePolicies</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-donotallowuserstochangepolicies\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToChangePolicies'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DoNotAllowUsersToChangePolicies'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SecurityZonesUseOnlyMachineSettings",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Security Zones Use Only Machine Settings'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SecurityZonesUseOnlyMachineSettings</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-securityzonesuseonlymachinesettings\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SecurityZonesUseOnlyMachineSettings'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\SecurityZonesUseOnlyMachineSettings'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Crash Detection'' is set to ''Enabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disablecrashdetection\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableCrashDetection'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableSecuritySettingsCheck",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Disable Security Settings Check'' is set to ''Disabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableSecuritySettingsCheck</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-disablesecuritysettingscheck\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableSecuritySettingsCheck'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\DisableSecuritySettingsCheck'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Allow Auto Complete'' is set to ''Disabled'''\n  query: >-\n    SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<disabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:internetexplorer-allowautocomplete\n  description: 'STIG setting: ./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\InternetExplorer\\AllowAutoComplete'",
+      "status": "generated"
+    }
+  ]
+}

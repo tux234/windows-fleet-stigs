@@ -1,0 +1,1126 @@
+{
+  "total": 206,
+  "generated": 119,
+  "blocked": 0,
+  "unmapped": 87,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInternetExplorerApp",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInternetExplorerApp</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowDeletingBrowsingHistoryOnExit",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowDeletingBrowsingHistoryOnExit</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableConfiguringHistory",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableConfiguringHistory</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_disableconfiguringhistory_daystokeep_prompt",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_disableconfiguringhistory_daystokeep_prompt"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableDeletingUserVisitedWebsites",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableDeletingUserVisitedWebsites</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSoftwareWhenSignatureIsInvalid",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSoftwareWhenSignatureIsInvalid</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckServerCertificateRevocation",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckServerCertificateRevocation</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckSignaturesOnDownloadedPrograms",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/CheckSignaturesOnDownloadedPrograms</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowActiveXControlsInProtectedMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowActiveXControlsInProtectedMode</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEncryptionSupport",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableEncryptionSupport</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_disableencryptionsupport_advanced_wininetprotocoloptions",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_disableencryptionsupport_advanced_wininetprotocoloptions"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableProcessesInEnhancedProtectedMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableProcessesInEnhancedProtectedMode</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedProtectedMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowEnhancedProtectedMode</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableIgnoringCertificateErrors",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableIgnoringCertificateErrors</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAccessToDataSources",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAccessToDataSources</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowaccesstodatasources_iz_partname1406",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowaccesstodatasources_iz_partname1406"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowCopyPasteViaScript</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowcopypasteviascript_iz_partname1407",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowcopypasteviascript_iz_partname1407"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowDragAndDropCopyAndPasteFiles",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowDragAndDropCopyAndPasteFiles</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowdraganddropcopyandpastefiles_iz_partname1802",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowdraganddropcopyandpastefiles_iz_partname1802"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLoadingOfXAMLFiles",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLoadingOfXAMLFiles</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowloadingofxamlfiles_iz_partname2402",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowloadingofxamlfiles_iz_partname2402"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptInitiatedWindows",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptInitiatedWindows</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptinitiatedwindows_iz_partname2102",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptinitiatedwindows_iz_partname2102"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptingOfInternetExplorerWebBrowserControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptlets",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowScriptlets</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptlets_iz_partname1209",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowscriptlets_iz_partname1209"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUpdatesToStatusBarViaScript</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowupdatestostatusbarviascript_iz_partname2103",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowupdatestostatusbarviascript_iz_partname2103"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowVBScriptToRunInInternetExplorer</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowvbscripttorunininternetexplorer_iz_partname140c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowvbscripttorunininternetexplorer_iz_partname140c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowAutomaticPromptingForFileDownloads</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowautomaticpromptingforfiledownloads_iz_partname2200",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowautomaticpromptingforfiledownloads_iz_partname2200"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadSignedActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadSignedActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadsignedactivexcontrols_iz_partname1001",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonedownloadsignedactivexcontrols_iz_partname1001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadUnsignedActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneDownloadUnsignedActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonedownloadunsignedactivexcontrols_iz_partname1004",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonedownloadunsignedactivexcontrols_iz_partname1004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneIncludeLocalPathWhenUploadingFilesToServer",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneIncludeLocalPathWhenUploadingFilesToServer</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneInitializeAndScriptActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneInitializeAndScriptActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLaunchingApplicationsAndFilesInIFRAME",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLaunchingApplicationsAndFilesInIFRAME</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonelaunchingapplicationsandfilesiniframe_iz_partname1804",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonelaunchingapplicationsandfilesiniframe_iz_partname1804"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLogonOptions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneLogonOptions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonelogonoptions_iz_partname1a00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonelogonoptions_iz_partname1a00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneNavigateWindowsAndFrames",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneNavigateWindowsAndFrames</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonenavigatewindowsandframes_iz_partname1607",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonenavigatewindowsandframes_iz_partname1607"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowNETFrameworkReliantComponents",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowNETFrameworkReliantComponents</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallownetframeworkreliantcomponents_iz_partname2004",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallownetframeworkreliantcomponents_iz_partname2004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneShowSecurityWarningForPotentiallyUnsafeFiles</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableCrossSiteScriptingFilter",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableCrossSiteScriptingFilter</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenablecrosssitescriptingfilter_iz_partname1409",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneenablecrosssitescriptingfilter_iz_partname1409"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableProtectedMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneEnableProtectedMode</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneenableprotectedmode_iz_partname2500",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneenableprotectedmode_iz_partname2500"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowSmartScreenIE",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowSmartScreenIE</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowsmartscreenie_iz_partname2301",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowsmartscreenie_iz_partname2301"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneUsePopupBlocker",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneUsePopupBlocker</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneusepopupblocker_iz_partname1809",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneusepopupblocker_iz_partname1809"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUserDataPersistence",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowUserDataPersistence</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowuserdatapersistence_iz_partname1606",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowuserdatapersistence_iz_partname1606"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLessPrivilegedSites",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/InternetZoneAllowLessPrivilegedSites</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_internetzoneallowlessprivilegedsites_iz_partname2101",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_internetzoneallowlessprivilegedsites_iz_partname2101"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_intranetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_intranetzonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneInitializeAndScriptActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneInitializeAndScriptActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_intranetzoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_intranetzoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IntranetZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_intranetzonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_intranetzonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_localmachinezonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_localmachinezonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LocalMachineZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_localmachinezonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_localmachinezonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownIntranetJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddownintranetjavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_lockeddownintranetjavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownLocalMachineZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownLocalMachineZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddownlocalmachinezonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_lockeddownlocalmachinezonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownRestrictedSitesZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownRestrictedSitesZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_lockeddownrestrictedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownTrustedSitesZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/LockedDownTrustedSitesZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_lockeddowntrustedsiteszonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_lockeddowntrustedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAccessToDataSources</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowaccesstodatasources_iz_partname1406",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowaccesstodatasources_iz_partname1406"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowActiveScripting",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowActiveScripting</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowactivescripting_iz_partname1400",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowactivescripting_iz_partname1400"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowBinaryAndScriptBehaviors",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowBinaryAndScriptBehaviors</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowbinaryandscriptbehaviors_iz_partname2000",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowbinaryandscriptbehaviors_iz_partname2000"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowCopyPasteViaScript</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowcopypasteviascript_iz_partname1407",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowcopypasteviascript_iz_partname1407"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowDragAndDropCopyAndPasteFiles</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowdraganddropcopyandpastefiles_iz_partname1802",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowdraganddropcopyandpastefiles_iz_partname1802"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowFileDownloads",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowFileDownloads</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowfiledownloads_iz_partname1803",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowfiledownloads_iz_partname1803"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLoadingOfXAMLFiles",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLoadingOfXAMLFiles</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowloadingofxamlfiles_iz_partname2402",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowloadingofxamlfiles_iz_partname2402"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowMETAREFRESH",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowMETAREFRESH</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowmetarefresh_iz_partname1608",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowmetarefresh_iz_partname1608"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstouseactivexcontrols_iz_partname120b"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowOnlyApprovedDomainsToUseTDCActiveXControl</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowonlyapproveddomainstousetdcactivexcontrol_iz_partname120c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptInitiatedWindows",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptInitiatedWindows</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptinitiatedwindows_iz_partname2102",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptinitiatedwindows_iz_partname2102"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptingOfInternetExplorerWebBrowserControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptingofinternetexplorerwebbrowsercontrols_iz_partname1206"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowScriptlets</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptlets_iz_partname1209",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowscriptlets_iz_partname1209"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUpdatesToStatusBarViaScript</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowupdatestostatusbarviascript_iz_partname2103",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowupdatestostatusbarviascript_iz_partname2103"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowVBScriptToRunInInternetExplorer</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowvbscripttorunininternetexplorer_iz_partname140c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowvbscripttorunininternetexplorer_iz_partname140c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowAutomaticPromptingForFileDownloads</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowautomaticpromptingforfiledownloads_iz_partname2200",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowautomaticpromptingforfiledownloads_iz_partname2200"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadSignedActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadSignedActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadsignedactivexcontrols_iz_partname1001",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadsignedactivexcontrols_iz_partname1001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadUnsignedActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneDownloadUnsignedActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadunsignedactivexcontrols_iz_partname1004",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonedownloadunsignedactivexcontrols_iz_partname1004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsAcrossWindows</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainsacrosswindows_iz_partname2709"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableDraggingOfContentFromDifferentDomainsWithinWindows</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenabledraggingofcontentfromdifferentdomainswithinwindows_iz_partname2708"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneIncludeLocalPathWhenUploadingFilesToServer</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneincludelocalpathwhenuploadingfilestoserver_iz_partname160a"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneInitializeAndScriptActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneInitializeAndScriptActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLaunchingApplicationsAndFilesInIFRAME</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelaunchingapplicationsandfilesiniframe_iz_partname1804",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelaunchingapplicationsandfilesiniframe_iz_partname1804"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLogonOptions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneLogonOptions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelogonoptions_iz_partname1a00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonelogonoptions_iz_partname1a00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneNavigateWindowsAndFrames",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneNavigateWindowsAndFrames</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonenavigatewindowsandframes_iz_partname1607",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonenavigatewindowsandframes_iz_partname1607"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowNETFrameworkReliantComponents",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowNETFrameworkReliantComponents</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallownetframeworkreliantcomponents_iz_partname2004",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallownetframeworkreliantcomponents_iz_partname2004"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunNETFrameworkReliantComponentsSignedWithAuthenticode</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunnetframeworkreliantcomponentssignedwithauthenticode_iz_partname2001"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunActiveXControlsAndPlugins",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneRunActiveXControlsAndPlugins</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunactivexcontrolsandplugins_iz_partname1200",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonerunactivexcontrolsandplugins_iz_partname1200"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptActiveXControlsMarkedSafeForScripting</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting_iz_partname1405",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptactivexcontrolsmarkedsafeforscripting_iz_partname1405"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptingOfJavaApplets",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneScriptingOfJavaApplets</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptingofjavaapplets_iz_partname1402",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszonescriptingofjavaapplets_iz_partname1402"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneShowSecurityWarningForPotentiallyUnsafeFiles</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneshowsecuritywarningforpotentiallyunsafefiles_iz_partname1806"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneEnableCrossSiteScriptingFilter</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablecrosssitescriptingfilter_iz_partname1409",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneenablecrosssitescriptingfilter_iz_partname1409"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnProtectedMode",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneTurnOnProtectedMode</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneturnonprotectedmode_iz_partname2500",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneturnonprotectedmode_iz_partname2500"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowSmartScreenIE",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowSmartScreenIE</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowsmartscreenie_iz_partname2301",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowsmartscreenie_iz_partname2301"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneUsePopupBlocker",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneUsePopupBlocker</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneusepopupblocker_iz_partname1809",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneusepopupblocker_iz_partname1809"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUserDataPersistence",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowUserDataPersistence</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowuserdatapersistence_iz_partname1606",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowuserdatapersistence_iz_partname1606"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLessPrivilegedSites",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictedSitesZoneAllowLessPrivilegedSites</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowlessprivilegedsites_iz_partname2101",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_restrictedsiteszoneallowlessprivilegedsites_iz_partname2101"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneDoNotRunAntimalwareAgainstActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_trustedsiteszonedonotrunantimalwareagainstactivexcontrols_iz_partname270c"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneInitializeAndScriptActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneInitializeAndScriptActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_trustedsiteszoneinitializeandscriptactivexcontrols_iz_partname1201"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneJavaPermissions",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/TrustedSitesZoneJavaPermissions</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_trustedsiteszonejavapermissions_iz_partname1c00",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_trustedsiteszonejavapermissions_iz_partname1c00"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowCertificateAddressMismatchWarning",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowCertificateAddressMismatchWarning</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarnings",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarnings</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarningsAboutUncommonFiles",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableBypassOfSmartScreenWarningsAboutUncommonFiles</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventManagingSmartScreenFilter",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventManagingSmartScreenFilter</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_preventmanagingsmartscreenfilter_ie9safetyfilteroptions",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_preventmanagingsmartscreenfilter_ie9safetyfilteroptions"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventPerUserInstallationOfActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/PreventPerUserInstallationOfActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInPrivateBrowsing",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableInPrivateBrowsing</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RemoveRunThisTimeButtonForOutdatedActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RemoveRunThisTimeButtonForOutdatedActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotBlockOutdatedActiveXControls</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowFallbackToSSL3",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowFallbackToSSL3</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "device_vendor_msft_policy_config_internetexplorer_allowfallbacktossl3_advanced_enablessl3fallbackoptions",
+      "xml": "",
+      "status": "unmapped",
+      "reason": "No DDF match for definition ID: device_vendor_msft_policy_config_internetexplorer_allowfallbacktossl3_advanced_enablessl3fallbackoptions"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ConsistentMimeHandlingInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MimeSniffingSafetyFeatureInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MimeSniffingSafetyFeatureInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MKProtocolSecurityRestrictionInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/MKProtocolSecurityRestrictionInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/NotificationBarInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/NotificationBarInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ProtectionFromZoneElevationInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictActiveXInstallInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/RestrictFileDownloadInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/ScriptedWindowSecurityRestrictionsInternetExplorerProcesses</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToAddSites",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToAddSites</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToChangePolicies",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DoNotAllowUsersToChangePolicies</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SecurityZonesUseOnlyMachineSettings",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/SecurityZonesUseOnlyMachineSettings</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableCrashDetection</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableSecuritySettingsCheck",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/DisableSecuritySettingsCheck</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./User/Vendor/MSFT/Policy/Config/InternetExplorer/AllowAutoComplete</LocURI>\n        </Target>\n        <Data><![CDATA[<disabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    }
+  ]
+}

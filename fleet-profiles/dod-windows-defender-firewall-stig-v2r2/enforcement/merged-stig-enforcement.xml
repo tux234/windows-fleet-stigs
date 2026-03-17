@@ -1,0 +1,121 @@
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/DomainProfile/EnableFirewall</LocURI>
+        </Target>
+        <Data>true</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/DomainProfile/DefaultOutboundAction</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/DomainProfile/DefaultInboundAction</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/EnableFirewall</LocURI>
+        </Target>
+        <Data>true</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/DefaultOutboundAction</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/DefaultInboundAction</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/EnableFirewall</LocURI>
+        </Target>
+        <Data>true</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalPolicyMerge</LocURI>
+        </Target>
+        <Data>false</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultInboundAction</LocURI>
+        </Target>
+        <Data>1</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">int</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultOutboundAction</LocURI>
+        </Target>
+        <Data>0</Data>
+    </Item>
+</Replace>
+<Replace>
+    <Item>
+        <Meta>
+            <Format xmlns="syncml:metinf">bool</Format>
+        </Meta>
+        <Target>
+            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalIpsecPolicyMerge</LocURI>
+        </Target>
+        <Data>false</Data>
+    </Item>
+</Replace>

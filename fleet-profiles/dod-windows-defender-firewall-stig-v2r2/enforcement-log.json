@@ -1,0 +1,64 @@
+{
+  "total": 11,
+  "generated": 11,
+  "blocked": 0,
+  "unmapped": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/DomainProfile/EnableFirewall",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">bool</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/DomainProfile/EnableFirewall</LocURI>\n        </Target>\n        <Data>true</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/DomainProfile/DefaultOutboundAction",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/DomainProfile/DefaultOutboundAction</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/DomainProfile/DefaultInboundAction",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/DomainProfile/DefaultInboundAction</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/EnableFirewall",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">bool</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/EnableFirewall</LocURI>\n        </Target>\n        <Data>true</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/DefaultOutboundAction",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/DefaultOutboundAction</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/DefaultInboundAction",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PrivateProfile/DefaultInboundAction</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PublicProfile/EnableFirewall",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">bool</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/EnableFirewall</LocURI>\n        </Target>\n        <Data>true</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalPolicyMerge",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">bool</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalPolicyMerge</LocURI>\n        </Target>\n        <Data>false</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultInboundAction",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultInboundAction</LocURI>\n        </Target>\n        <Data>1</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultOutboundAction",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">int</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/DefaultOutboundAction</LocURI>\n        </Target>\n        <Data>0</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalIpsecPolicyMerge",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">bool</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Vendor/MSFT/Firewall/MdmStore/PublicProfile/AllowLocalIpsecPolicyMerge</LocURI>\n        </Target>\n        <Data>false</Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    }
+  ]
+}
