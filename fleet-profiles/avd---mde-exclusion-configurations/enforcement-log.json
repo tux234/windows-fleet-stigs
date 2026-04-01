@@ -1,0 +1,19 @@
+{
+  "total": 2,
+  "generated": 2,
+  "blocked": 0,
+  "unmapped": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Paths",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Paths</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Processes",
+      "xml": "<Replace>\n    <Item>\n        <Meta>\n            <Format xmlns=\"syncml:metinf\">chr</Format>\n        </Meta>\n        <Target>\n            <LocURI>./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Processes</LocURI>\n        </Target>\n        <Data><![CDATA[<enabled/>]]></Data>\n    </Item>\n</Replace>",
+      "status": "generated"
+    }
+  ]
+}

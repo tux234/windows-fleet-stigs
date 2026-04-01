@@ -1,16 +1,10 @@
-# Fleet STIG Profiles — Generated 2026-03-17
+# Fleet STIG Profiles — Generated 2026-04-01
 
 Auto-generated from DISA STIG Intune Policy Package (`july2025`) using DDF v2 (`feb2026`).
 
-Each profile folder contains:
-- `enforcement/merged-stig-enforcement.xml` — all CSPs in one file (deploy everything)
-- `enforcement/individual/` — one XML file per setting (pick and choose)
-- `compliance/merged-stig-compliance.yaml` — all compliance policies in one file
-- `compliance/individual/` — one YAML file per setting
-- `enforcement-log.json` / `compliance-log.json` — detailed conversion logs
-
 | Profile | Enforcement CSPs | Compliance Policies | Blocked | Unmapped |
 |---------|-----------------|--------------------|---------|-----------| 
+| `avd---mde-exclusion-configurations` | 2 | 2 | 0 | 0 |
 | `dod-internet-explorer-11-stig-v2r6` | 119 | 119 | 0 | 87 |
 | `dod-microsoft-defender-antivirus-stig-computer-v2r4` | 14 | 14 | 0 | 5 |
 | `dod-windows-10-stig-v3r4` | 169 | 171 | 2 | 32 |
@@ -21,10 +15,8 @@ Each profile folder contains:
 
 ## Usage
 
-**Deploy all at once**: Upload `enforcement/merged-stig-enforcement.xml` to Fleet via Controls > OS settings > Custom settings > Add profile
+**Enforcement**: Upload `enforcement/merged-stig-enforcement.xml` to Fleet via Controls > OS settings > Custom settings > Add profile
 
-**Cherry-pick settings**: Browse `enforcement/individual/` and upload only the CSPs you need
-
-**Compliance monitoring**: Import `compliance/merged-stig-compliance.yaml` via Policies > Add policy > Import or `fleetctl apply -f`
+**Compliance**: Import `compliance/merged-stig-compliance.yaml` via Policies > Add policy > Import or `fleetctl apply -f`
 
 **Blocked CSPs**: BitLocker (use Fleet's disk encryption endpoint) and Windows Update (requires `EnableCustomOSUpdates`) are excluded. See enforcement-log.json for details.

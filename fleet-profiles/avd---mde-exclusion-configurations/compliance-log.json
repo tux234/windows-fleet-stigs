@@ -1,0 +1,18 @@
+{
+  "total": 2,
+  "generated": 2,
+  "unmapped": 0,
+  "skipped": 0,
+  "results": [
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Paths",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Exclusions Paths'' is set to ''Enabled'''\n  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/ADMX_MicrosoftDefenderAntivirus/Exclusions_Paths</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<Enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:exclusions-paths\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Paths'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\ADMX_MicrosoftDefenderAntivirus\\Exclusions_Paths'",
+      "status": "generated"
+    },
+    {
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Processes",
+      "yaml": "apiVersion: v1\nkind: policy\nspec:\n  platform: windows\n  name: 'STIG - Ensure ''Exclusions Processes'' is set to ''Enabled'''\n  query: SELECT 1 FROM mdm_bridge WHERE mdm_command_input = '<SyncBody><Get><CmdID>1</CmdID><Item><Target><LocURI>./Device/Vendor/MSFT/Policy/Result/ADMX_MicrosoftDefenderAntivirus/Exclusions_Processes</LocURI></Target></Item></Get></SyncBody>' AND mdm_command_output LIKE '%<Enabled/>%';\n  purpose: Informational\n  tags: framework:DISA-STIG, benchmark:DISA-STIG, platform:windows, control:exclusions-processes\n  description: 'STIG setting: ./Device/Vendor/MSFT/Policy/Config/ADMX_MicrosoftDefenderAntivirus/Exclusions_Processes'\n  resolution: 'To establish the recommended configuration via configuration profiles, set the following Settings Catalog path. Policy\\Config\\ADMX_MicrosoftDefenderAntivirus\\Exclusions_Processes'",
+      "status": "generated"
+    }
+  ]
+}
