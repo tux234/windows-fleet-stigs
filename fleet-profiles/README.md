@@ -1,4 +1,4 @@
-# Fleet STIG Profiles — Generated 2026-04-01
+# Fleet STIG Profiles — Generated 2026-05-01
 
 Auto-generated from DISA STIG Intune Policy Package (`july2025`) using DDF v2 (`feb2026`).
 
